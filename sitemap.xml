@@ -3,144 +3,144 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sosprz.github.io/posts/cmd/</loc>
+    <loc>localhost/posts/cmd/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/firewall-evasion/</loc>
+    <loc>localhost/posts/firewall-evasion/</loc>
     <lastmod>2018-12-23T11:26:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/av-evasion/</loc>
+    <loc>localhost/posts/av-evasion/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/bash-commands/</loc>
+    <loc>localhost/posts/bash-commands/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/bash-scrips/</loc>
+    <loc>localhost/posts/bash-scrips/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/ctf-tools/</loc>
+    <loc>localhost/posts/ctf-tools/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/ldap/</loc>
+    <loc>localhost/posts/ldap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/links/</loc>
+    <loc>localhost/posts/links/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/metasploit/</loc>
+    <loc>localhost/posts/metasploit/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/nmap/</loc>
+    <loc>localhost/posts/nmap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/openssl/</loc>
+    <loc>localhost/posts/openssl/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/password/</loc>
+    <loc>localhost/posts/password/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/privecs-libseclogin/</loc>
+    <loc>localhost/posts/privecs-libseclogin/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/shell/</loc>
+    <loc>localhost/posts/shell/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/shell-esc/</loc>
+    <loc>localhost/posts/shell-esc/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/shell_reverse/</loc>
+    <loc>localhost/posts/shell_reverse/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/shell_search/</loc>
+    <loc>localhost/posts/shell_search/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/smb/</loc>
+    <loc>localhost/posts/smb/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/sqli/</loc>
+    <loc>localhost/posts/sqli/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/sqlmap/</loc>
+    <loc>localhost/posts/sqlmap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/ssh/</loc>
+    <loc>localhost/posts/ssh/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/stego/</loc>
+    <loc>localhost/posts/stego/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/www-dir-scan/</loc>
+    <loc>localhost/posts/www-dir-scan/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/xss/</loc>
+    <loc>localhost/posts/xss/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/</loc>
+    <loc>localhost/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/categories/</loc>
+    <loc>localhost/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/posts/</loc>
+    <loc>localhost/posts/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/</loc>
+    <loc>localhost/tags/</loc>
     <priority>0</priority>
   </url>
   

