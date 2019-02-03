@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chisel on pentest notes</title>
+    <link>sosprz.github.io/tags/chisel/</link>
+    <description>Recent content in Chisel on pentest notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>Your language code</language>
+    <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
+    
+	<atom:link href="sosprz.github.io/tags/chisel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tunnels</title>
+      <link>sosprz.github.io/post/tunnels/</link>
+      <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
+      
+      <guid>sosprz.github.io/post/tunnels/</guid>
+      <description>Chisel  chisel 
+Proxychains  proxychinas</description>
+    </item>
+    
+  </channel>
+</rss>

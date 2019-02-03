@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
-    <link>https://sosprz.github.io/categories/</link>
-    <description>Recent content in Categories on </description>
+    <title>Categories on pentest notes</title>
+    <link>sosprz.github.io/categories/</link>
+    <description>Recent content in Categories on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>Your language code</language>
     
-	<atom:link href="https://sosprz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="sosprz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Firewall</title>
+      <link>sosprz.github.io/categories/firewall/</link>
+      <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
+      
+      <guid>sosprz.github.io/categories/firewall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>sosprz.github.io/categories/links/</link>
+      <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
+      
+      <guid>sosprz.github.io/categories/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>sosprz.github.io/categories/linux/</link>
+      <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
+      
+      <guid>sosprz.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>sosprz.github.io/categories/tools/</link>
+      <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
+      
+      <guid>sosprz.github.io/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>sosprz.github.io/categories/windows/</link>
+      <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
+      
+      <guid>sosprz.github.io/categories/windows/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

