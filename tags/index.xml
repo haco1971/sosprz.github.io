@@ -2,507 +2,507 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on pentest notes</title>
-    <link>sosprz.github.io/tags/</link>
+    <link>http://sosprz.github.io/tags/</link>
     <description>Recent content in Tags on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="sosprz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sosprz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Antivirus</title>
-      <link>sosprz.github.io/tags/antivirus/</link>
+      <link>http://sosprz.github.io/tags/antivirus/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/antivirus/</guid>
+      <guid>http://sosprz.github.io/tags/antivirus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Awk</title>
-      <link>sosprz.github.io/tags/awk/</link>
+      <link>http://sosprz.github.io/tags/awk/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/awk/</guid>
+      <guid>http://sosprz.github.io/tags/awk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bash</title>
-      <link>sosprz.github.io/tags/bash/</link>
+      <link>http://sosprz.github.io/tags/bash/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/bash/</guid>
+      <guid>http://sosprz.github.io/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Binwalk</title>
-      <link>sosprz.github.io/tags/binwalk/</link>
+      <link>http://sosprz.github.io/tags/binwalk/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/binwalk/</guid>
+      <guid>http://sosprz.github.io/tags/binwalk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bruteforce</title>
-      <link>sosprz.github.io/tags/bruteforce/</link>
+      <link>http://sosprz.github.io/tags/bruteforce/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/bruteforce/</guid>
+      <guid>http://sosprz.github.io/tags/bruteforce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cat</title>
-      <link>sosprz.github.io/tags/cat/</link>
+      <link>http://sosprz.github.io/tags/cat/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/cat/</guid>
+      <guid>http://sosprz.github.io/tags/cat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Certutil</title>
-      <link>sosprz.github.io/tags/certutil/</link>
+      <link>http://sosprz.github.io/tags/certutil/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/certutil/</guid>
+      <guid>http://sosprz.github.io/tags/certutil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cewl</title>
-      <link>sosprz.github.io/tags/cewl/</link>
+      <link>http://sosprz.github.io/tags/cewl/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/cewl/</guid>
+      <guid>http://sosprz.github.io/tags/cewl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chisel</title>
-      <link>sosprz.github.io/tags/chisel/</link>
+      <link>http://sosprz.github.io/tags/chisel/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/chisel/</guid>
+      <guid>http://sosprz.github.io/tags/chisel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cmd</title>
-      <link>sosprz.github.io/tags/cmd/</link>
+      <link>http://sosprz.github.io/tags/cmd/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/cmd/</guid>
+      <guid>http://sosprz.github.io/tags/cmd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dir</title>
-      <link>sosprz.github.io/tags/dir/</link>
+      <link>http://sosprz.github.io/tags/dir/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/dir/</guid>
+      <guid>http://sosprz.github.io/tags/dir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dirb</title>
-      <link>sosprz.github.io/tags/dirb/</link>
+      <link>http://sosprz.github.io/tags/dirb/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/dirb/</guid>
+      <guid>http://sosprz.github.io/tags/dirb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enum</title>
-      <link>sosprz.github.io/tags/enum/</link>
+      <link>http://sosprz.github.io/tags/enum/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/enum/</guid>
+      <guid>http://sosprz.github.io/tags/enum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evasion</title>
-      <link>sosprz.github.io/tags/evasion/</link>
+      <link>http://sosprz.github.io/tags/evasion/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/evasion/</guid>
+      <guid>http://sosprz.github.io/tags/evasion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Find</title>
-      <link>sosprz.github.io/tags/find/</link>
+      <link>http://sosprz.github.io/tags/find/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/find/</guid>
+      <guid>http://sosprz.github.io/tags/find/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Foremost</title>
-      <link>sosprz.github.io/tags/foremost/</link>
+      <link>http://sosprz.github.io/tags/foremost/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/foremost/</guid>
+      <guid>http://sosprz.github.io/tags/foremost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gobuster</title>
-      <link>sosprz.github.io/tags/gobuster/</link>
+      <link>http://sosprz.github.io/tags/gobuster/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/gobuster/</guid>
+      <guid>http://sosprz.github.io/tags/gobuster/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grep</title>
-      <link>sosprz.github.io/tags/grep/</link>
+      <link>http://sosprz.github.io/tags/grep/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/grep/</guid>
+      <guid>http://sosprz.github.io/tags/grep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hydra</title>
-      <link>sosprz.github.io/tags/hydra/</link>
+      <link>http://sosprz.github.io/tags/hydra/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/hydra/</guid>
+      <guid>http://sosprz.github.io/tags/hydra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>John</title>
-      <link>sosprz.github.io/tags/john/</link>
+      <link>http://sosprz.github.io/tags/john/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/john/</guid>
+      <guid>http://sosprz.github.io/tags/john/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ldap</title>
-      <link>sosprz.github.io/tags/ldap/</link>
+      <link>http://sosprz.github.io/tags/ldap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/ldap/</guid>
+      <guid>http://sosprz.github.io/tags/ldap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>sosprz.github.io/tags/links/</link>
+      <link>http://sosprz.github.io/tags/links/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/links/</guid>
+      <guid>http://sosprz.github.io/tags/links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Msf</title>
-      <link>sosprz.github.io/tags/msf/</link>
+      <link>http://sosprz.github.io/tags/msf/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/msf/</guid>
+      <guid>http://sosprz.github.io/tags/msf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nc</title>
-      <link>sosprz.github.io/tags/nc/</link>
+      <link>http://sosprz.github.io/tags/nc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/nc/</guid>
+      <guid>http://sosprz.github.io/tags/nc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ncat</title>
-      <link>sosprz.github.io/tags/ncat/</link>
+      <link>http://sosprz.github.io/tags/ncat/</link>
       <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/ncat/</guid>
+      <guid>http://sosprz.github.io/tags/ncat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netcat</title>
-      <link>sosprz.github.io/tags/netcat/</link>
+      <link>http://sosprz.github.io/tags/netcat/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/netcat/</guid>
+      <guid>http://sosprz.github.io/tags/netcat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nmap</title>
-      <link>sosprz.github.io/tags/nmap/</link>
+      <link>http://sosprz.github.io/tags/nmap/</link>
       <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/nmap/</guid>
+      <guid>http://sosprz.github.io/tags/nmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ping</title>
-      <link>sosprz.github.io/tags/ping/</link>
+      <link>http://sosprz.github.io/tags/ping/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/ping/</guid>
+      <guid>http://sosprz.github.io/tags/ping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portscan</title>
-      <link>sosprz.github.io/tags/portscan/</link>
+      <link>http://sosprz.github.io/tags/portscan/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/portscan/</guid>
+      <guid>http://sosprz.github.io/tags/portscan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Powershell</title>
-      <link>sosprz.github.io/tags/powershell/</link>
+      <link>http://sosprz.github.io/tags/powershell/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/powershell/</guid>
+      <guid>http://sosprz.github.io/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proxychains</title>
-      <link>sosprz.github.io/tags/proxychains/</link>
+      <link>http://sosprz.github.io/tags/proxychains/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/proxychains/</guid>
+      <guid>http://sosprz.github.io/tags/proxychains/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ps</title>
-      <link>sosprz.github.io/tags/ps/</link>
+      <link>http://sosprz.github.io/tags/ps/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/ps/</guid>
+      <guid>http://sosprz.github.io/tags/ps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psexec</title>
-      <link>sosprz.github.io/tags/psexec/</link>
+      <link>http://sosprz.github.io/tags/psexec/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/psexec/</guid>
+      <guid>http://sosprz.github.io/tags/psexec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pspy</title>
-      <link>sosprz.github.io/tags/pspy/</link>
+      <link>http://sosprz.github.io/tags/pspy/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/pspy/</guid>
+      <guid>http://sosprz.github.io/tags/pspy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Putty</title>
-      <link>sosprz.github.io/tags/putty/</link>
+      <link>http://sosprz.github.io/tags/putty/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/putty/</guid>
+      <guid>http://sosprz.github.io/tags/putty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>sosprz.github.io/tags/python/</link>
+      <link>http://sosprz.github.io/tags/python/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/python/</guid>
+      <guid>http://sosprz.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Radare2</title>
-      <link>sosprz.github.io/tags/radare2/</link>
+      <link>http://sosprz.github.io/tags/radare2/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/radare2/</guid>
+      <guid>http://sosprz.github.io/tags/radare2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reverse</title>
-      <link>sosprz.github.io/tags/reverse/</link>
+      <link>http://sosprz.github.io/tags/reverse/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/reverse/</guid>
+      <guid>http://sosprz.github.io/tags/reverse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seclist</title>
-      <link>sosprz.github.io/tags/seclist/</link>
+      <link>http://sosprz.github.io/tags/seclist/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/seclist/</guid>
+      <guid>http://sosprz.github.io/tags/seclist/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sh</title>
-      <link>sosprz.github.io/tags/sh/</link>
+      <link>http://sosprz.github.io/tags/sh/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/sh/</guid>
+      <guid>http://sosprz.github.io/tags/sh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Smbclient</title>
-      <link>sosprz.github.io/tags/smbclient/</link>
+      <link>http://sosprz.github.io/tags/smbclient/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/smbclient/</guid>
+      <guid>http://sosprz.github.io/tags/smbclient/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Smbmap</title>
-      <link>sosprz.github.io/tags/smbmap/</link>
+      <link>http://sosprz.github.io/tags/smbmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/smbmap/</guid>
+      <guid>http://sosprz.github.io/tags/smbmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sql</title>
-      <link>sosprz.github.io/tags/sql/</link>
+      <link>http://sosprz.github.io/tags/sql/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/sql/</guid>
+      <guid>http://sosprz.github.io/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sqlmap</title>
-      <link>sosprz.github.io/tags/sqlmap/</link>
+      <link>http://sosprz.github.io/tags/sqlmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/sqlmap/</guid>
+      <guid>http://sosprz.github.io/tags/sqlmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssh</title>
-      <link>sosprz.github.io/tags/ssh/</link>
+      <link>http://sosprz.github.io/tags/ssh/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/ssh/</guid>
+      <guid>http://sosprz.github.io/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssl</title>
-      <link>sosprz.github.io/tags/ssl/</link>
+      <link>http://sosprz.github.io/tags/ssl/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/ssl/</guid>
+      <guid>http://sosprz.github.io/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stegcracker</title>
-      <link>sosprz.github.io/tags/stegcracker/</link>
+      <link>http://sosprz.github.io/tags/stegcracker/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/stegcracker/</guid>
+      <guid>http://sosprz.github.io/tags/stegcracker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Steghide</title>
-      <link>sosprz.github.io/tags/steghide/</link>
+      <link>http://sosprz.github.io/tags/steghide/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/steghide/</guid>
+      <guid>http://sosprz.github.io/tags/steghide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stegsolve</title>
-      <link>sosprz.github.io/tags/stegsolve/</link>
+      <link>http://sosprz.github.io/tags/stegsolve/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/stegsolve/</guid>
+      <guid>http://sosprz.github.io/tags/stegsolve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Strings</title>
-      <link>sosprz.github.io/tags/strings/</link>
+      <link>http://sosprz.github.io/tags/strings/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/strings/</guid>
+      <guid>http://sosprz.github.io/tags/strings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themole</title>
-      <link>sosprz.github.io/tags/themole/</link>
+      <link>http://sosprz.github.io/tags/themole/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/themole/</guid>
+      <guid>http://sosprz.github.io/tags/themole/</guid>
       <description></description>
     </item>
     
     <item>
       <title>User</title>
-      <link>sosprz.github.io/tags/user/</link>
+      <link>http://sosprz.github.io/tags/user/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/user/</guid>
+      <guid>http://sosprz.github.io/tags/user/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wfuzz</title>
-      <link>sosprz.github.io/tags/wfuzz/</link>
+      <link>http://sosprz.github.io/tags/wfuzz/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/wfuzz/</guid>
+      <guid>http://sosprz.github.io/tags/wfuzz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wget</title>
-      <link>sosprz.github.io/tags/wget/</link>
+      <link>http://sosprz.github.io/tags/wget/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/wget/</guid>
+      <guid>http://sosprz.github.io/tags/wget/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xsser</title>
-      <link>sosprz.github.io/tags/xsser/</link>
+      <link>http://sosprz.github.io/tags/xsser/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/tags/xsser/</guid>
+      <guid>http://sosprz.github.io/tags/xsser/</guid>
       <description></description>
     </item>
     

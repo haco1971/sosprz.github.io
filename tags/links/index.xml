@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Links on pentest notes</title>
-    <link>sosprz.github.io/tags/links/</link>
+    <link>http://sosprz.github.io/tags/links/</link>
     <description>Recent content in Links on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="sosprz.github.io/tags/links/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sosprz.github.io/tags/links/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Links</title>
-      <link>sosprz.github.io/post/links/</link>
+      <link>http://sosprz.github.io/post/links/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/links/</guid>
+      <guid>http://sosprz.github.io/post/links/</guid>
       <description>#tools
 https://gtfobins.github.io/
 https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/

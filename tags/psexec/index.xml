@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Psexec on pentest notes</title>
-    <link>sosprz.github.io/tags/psexec/</link>
+    <link>http://sosprz.github.io/tags/psexec/</link>
     <description>Recent content in Psexec on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Sat, 19 Jan 2019 22:13:07 +0100</lastBuildDate>
     
-	<atom:link href="sosprz.github.io/tags/psexec/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sosprz.github.io/tags/psexec/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Impacket</title>
-      <link>sosprz.github.io/post/impacket/</link>
+      <link>http://sosprz.github.io/post/impacket/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/impacket/</guid>
+      <guid>http://sosprz.github.io/post/impacket/</guid>
       <description>Impacket psexec.py administrator@10.10.10.10</description>
     </item>
     

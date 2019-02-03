@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wfuzz on pentest notes</title>
-    <link>sosprz.github.io/tags/wfuzz/</link>
+    <link>http://sosprz.github.io/tags/wfuzz/</link>
     <description>Recent content in Wfuzz on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Sat, 19 Jan 2019 22:13:07 +0100</lastBuildDate>
     
-	<atom:link href="sosprz.github.io/tags/wfuzz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sosprz.github.io/tags/wfuzz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fuzz</title>
-      <link>sosprz.github.io/post/fuzz/</link>
+      <link>http://sosprz.github.io/post/fuzz/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/fuzz/</guid>
+      <guid>http://sosprz.github.io/post/fuzz/</guid>
       <description>wfuzz -c -w /usr/share/seclists/Usernames/Names/names.txt -d &#34;username=FUZZ&amp;password=pass&#34; -hs &#34;not found&#34; http://10.10.10.10/login.php wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ --hh 324  Fuzzing with ZAP request -&amp;gt; right click –&amp;gt; attack –&amp;gt; fuzzer</description>
     </item>
     

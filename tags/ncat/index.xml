@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ncat on pentest notes</title>
-    <link>sosprz.github.io/tags/ncat/</link>
+    <link>http://sosprz.github.io/tags/ncat/</link>
     <description>Recent content in Ncat on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Sun, 23 Dec 2018 11:26:23 +0100</lastBuildDate>
     
-	<atom:link href="sosprz.github.io/tags/ncat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sosprz.github.io/tags/ncat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Firewall evasion</title>
-      <link>sosprz.github.io/post/firewall-evasion/</link>
+      <link>http://sosprz.github.io/post/firewall-evasion/</link>
       <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/firewall-evasion/</guid>
+      <guid>http://sosprz.github.io/post/firewall-evasion/</guid>
       <description>Firewall source port scan, found port 987 and bind to localhost.  /usr/bin/nmap 192.168.5.2 -Pn &amp;ndash;source-port=53 -f /usr/bin/ncat -l 678 &amp;ndash;sh-exec &amp;ldquo;ncat 192.168.5.2 987 -p 53&amp;rdquo; ssh dave@localhost -p 678</description>
     </item>
     

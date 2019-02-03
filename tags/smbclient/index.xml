@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smbclient on pentest notes</title>
-    <link>sosprz.github.io/tags/smbclient/</link>
+    <link>http://sosprz.github.io/tags/smbclient/</link>
     <description>Recent content in Smbclient on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="sosprz.github.io/tags/smbclient/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sosprz.github.io/tags/smbclient/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SMB</title>
-      <link>sosprz.github.io/post/smb/</link>
+      <link>http://sosprz.github.io/post/smb/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>sosprz.github.io/post/smb/</guid>
+      <guid>http://sosprz.github.io/post/smb/</guid>
       <description> smbclient #user % hash smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY -L 10.10.10.107 #Allow to login to smb share smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY \\\\10.10.10.107\\alice  smbmap smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com </description>
     </item>
     
