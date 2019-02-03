@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Foremost on pentest notes</title>
-    <link>http://sosprz.github.io/tags/foremost/</link>
+    <link>https://sosprz.github.io/tags/foremost/</link>
     <description>Recent content in Foremost on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="http://sosprz.github.io/tags/foremost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/tags/foremost/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stego</title>
-      <link>http://sosprz.github.io/post/stego/</link>
+      <link>https://sosprz.github.io/post/stego/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>http://sosprz.github.io/post/stego/</guid>
+      <guid>https://sosprz.github.io/post/stego/</guid>
       <description> Steghide steghide info file steghide export -sf file.jpg Foremost foremost -i file Strings strings file Binwalk binwalk file binwalk -e file Stegsolve https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve Wavsteg python3 WavSteg.py -r -s soundfile -o outputfile Stegcracker ./stegcracker ../../Hackthebox/Stego/beatles/BAND.JPG ../../app/rockyou.txt Unicode https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder Nipiet online https://www.bertnase.de/npiet/npiet-execute.php Decode online http://dcode.fr  </description>
     </item>
     

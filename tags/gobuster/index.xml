@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gobuster on pentest notes</title>
-    <link>http://sosprz.github.io/tags/gobuster/</link>
+    <link>https://sosprz.github.io/tags/gobuster/</link>
     <description>Recent content in Gobuster on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="http://sosprz.github.io/tags/gobuster/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/tags/gobuster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WWW dir scan</title>
-      <link>http://sosprz.github.io/post/www-dir-scan/</link>
+      <link>https://sosprz.github.io/post/www-dir-scan/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>http://sosprz.github.io/post/www-dir-scan/</guid>
+      <guid>https://sosprz.github.io/post/www-dir-scan/</guid>
       <description> dirb -h cewl seclists gobuster -u http://10.10.10.111:1880 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt gobuster -u http://10.10.10.111:9999/backup -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt #with -x -m it will be search txt,html gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x -m gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x html  #vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
  git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
     </item>

