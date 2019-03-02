@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Responder on Pentest notes</title>
-    <link>https://example.com/tags/responder/</link>
+    <link>https://sosprz.github.io/tags/responder/</link>
     <description>Recent content in Responder on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/responder/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/tags/responder/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tools</title>
-      <link>https://example.com/posts/tools/</link>
+      <link>https://sosprz.github.io/posts/tools/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/tools/</guid>
+      <guid>https://sosprz.github.io/posts/tools/</guid>
       <description>CMSeeK CMS Detection and Exploitation suite
 Responder responder -i tun0
 Hping3 hping3 -S 10.10.10.10 -a 10.10.10.11 -p 22 &amp;ndash;flood

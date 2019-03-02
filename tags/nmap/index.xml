@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nmap on Pentest notes</title>
-    <link>https://example.com/tags/nmap/</link>
+    <link>https://sosprz.github.io/tags/nmap/</link>
     <description>Recent content in Nmap on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 Dec 2018 11:26:23 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/nmap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/tags/nmap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Firewall evasion</title>
-      <link>https://example.com/posts/firewall-evasion/</link>
+      <link>https://sosprz.github.io/posts/firewall-evasion/</link>
       <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
       
-      <guid>https://example.com/posts/firewall-evasion/</guid>
+      <guid>https://sosprz.github.io/posts/firewall-evasion/</guid>
       <description>Firewall source port scan, found port 987 and bind to localhost.  /usr/bin/nmap 192.168.5.2 -Pn &amp;ndash;source-port=53 -f /usr/bin/ncat -l 678 &amp;ndash;sh-exec &amp;ldquo;ncat 192.168.5.2 987 -p 53&amp;rdquo; ssh dave@localhost -p 678</description>
     </item>
     
     <item>
       <title>Domain tools</title>
-      <link>https://example.com/posts/domain/</link>
+      <link>https://sosprz.github.io/posts/domain/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/domain/</guid>
+      <guid>https://sosprz.github.io/posts/domain/</guid>
       <description>sublist3r
 #vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
  git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
@@ -32,10 +32,10 @@
     
     <item>
       <title>Nmap</title>
-      <link>https://example.com/posts/nmap/</link>
+      <link>https://sosprz.github.io/posts/nmap/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/nmap/</guid>
+      <guid>https://sosprz.github.io/posts/nmap/</guid>
       <description>nmap -sC -sV -oA nmap/hostname ip nmap -c -v -max-retires=0 -t5 -p- 10.10.10.10  nmap &amp;ndash;script smb-brute.nse -p445 ip
 nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip 
  nmap -p 80 &amp;ndash;script http-shellshock &amp;ndash;script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 &amp;ndash;script mysql-brute ip nmap -sV &amp;ndash;script=http-enum ip nmap -sV &amp;ndash;script=nfs-showmount ip nmap -sV &amp;ndash;script ssl-enum-ciphers -p 443 ip nmap -p445 &amp;ndash;script smb-vuln-ms17-010 ip nmap &amp;ndash;script smb-brute.</description>
@@ -43,10 +43,10 @@ nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hos
     
     <item>
       <title>Web Servers</title>
-      <link>https://example.com/posts/web-servers/</link>
+      <link>https://sosprz.github.io/posts/web-servers/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/web-servers/</guid>
+      <guid>https://sosprz.github.io/posts/web-servers/</guid>
       <description>dirb -h cewl seclists gobuster -u http://10.10.10.111:1880 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt gobuster -u http://10.10.10.111:9999/backup -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt #with -x -m it will be search txt,html gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x -m gobuster -u http://10.10.10.111/dir -w /usr/share/seclists/Discovery/Web-Content/common.txt -x html  Recirsive Gobuster https://github.com/epi052/recursive-gobuster
 Skipfish is an active web application security reconnaissance tool. skipfish -o /root/test/ -S /usr/share/skipfish/dictionares
 Uniscan is a simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.</description>

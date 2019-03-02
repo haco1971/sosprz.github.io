@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portscan on Pentest notes</title>
-    <link>https://example.com/tags/portscan/</link>
+    <link>https://sosprz.github.io/tags/portscan/</link>
     <description>Recent content in Portscan on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/portscan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sosprz.github.io/tags/portscan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash scripts</title>
-      <link>https://example.com/posts/bash-scrips/</link>
+      <link>https://sosprz.github.io/posts/bash-scrips/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://example.com/posts/bash-scrips/</guid>
+      <guid>https://sosprz.github.io/posts/bash-scrips/</guid>
       <description>Ping #!/bin/bash echo &amp;ldquo;first three octets of network to scan, end with a .&amp;rdquo; read network for host in {1..254}; do ping -c1 $network$host &amp;amp;&amp;gt;/dev/null; [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$network$host is up&amp;rdquo; echo &amp;ldquo;done checking host: &amp;ldquo; $network$host done 
 Portscan #!/bin/bash echo &amp;ldquo;host to portscan: &amp;ldquo; read host for port in {1..65000}; do (echo &amp;gt; /dev/tcp/$host/$port) &amp;amp;&amp;gt;/dev/null [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$port open&amp;rdquo; done</description>
     </item>
