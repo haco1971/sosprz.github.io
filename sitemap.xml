@@ -3,666 +3,622 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sosprz.github.io/post/fuzz/</loc>
+    <loc>https://example.com/posts/fuzz/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/impacket/</loc>
+    <loc>https://example.com/posts/impacket/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/windows-cmd/</loc>
+    <loc>https://example.com/posts/windows-cmd/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/firewall-evasion/</loc>
+    <loc>https://example.com/posts/firewall-evasion/</loc>
     <lastmod>2018-12-23T11:26:23+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/antivirus-evasion/</loc>
+    <loc>https://example.com/posts/antivirus-evasion/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/bash-commands/</loc>
+    <loc>https://example.com/posts/backdoor/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/bash-scrips/</loc>
+    <loc>https://example.com/posts/bash-commands/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/ctf-tools/</loc>
+    <loc>https://example.com/posts/bash-scrips/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/ldap/</loc>
+    <loc>https://example.com/posts/ctf-tools/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/links/</loc>
+    <loc>https://example.com/posts/domain/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/metasploit/</loc>
+    <loc>https://example.com/posts/ldap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/nmap/</loc>
+    <loc>https://example.com/posts/links/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/openssl/</loc>
+    <loc>https://example.com/posts/metasploit/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/password/</loc>
+    <loc>https://example.com/posts/nmap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/privesc/</loc>
+    <loc>https://example.com/posts/openssl/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/privesc-libseclogin/</loc>
+    <loc>https://example.com/posts/password/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/python/</loc>
+    <loc>https://example.com/posts/privesc/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/reverse-engineering/</loc>
+    <loc>https://example.com/posts/privesc-libseclogin/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/smb/</loc>
+    <loc>https://example.com/posts/python/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/sqli/</loc>
+    <loc>https://example.com/posts/reverse-engineering/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/ssh/</loc>
+    <loc>https://example.com/posts/smb/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/shell/</loc>
+    <loc>https://example.com/posts/sqli/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/shell-esc/</loc>
+    <loc>https://example.com/posts/ssh/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/shell-reverse/</loc>
+    <loc>https://example.com/posts/shell/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/sqlmap/</loc>
+    <loc>https://example.com/posts/shell-esc/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/stego/</loc>
+    <loc>https://example.com/posts/shell-reverse/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/tunnels/</loc>
+    <loc>https://example.com/posts/sqlmap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/www-dir-scan/</loc>
+    <loc>https://example.com/posts/stego/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/post/xss/</loc>
+    <loc>https://example.com/posts/tools/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/page/about/</loc>
+    <loc>https://example.com/posts/tunnels/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/web-servers/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/xss/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page/about/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/antivirus/</loc>
+    <loc>https://example.com/tags/antivirus/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/awk/</loc>
+    <loc>https://example.com/tags/awk/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/bash/</loc>
+    <loc>https://example.com/tags/bash/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/binwalk/</loc>
+    <loc>https://example.com/tags/binwalk/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/bruteforce/</loc>
+    <loc>https://example.com/tags/bruteforce/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/cat/</loc>
+    <loc>https://example.com/tags/cat/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://example.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/certutil/</loc>
+    <loc>https://example.com/tags/certutil/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/cewl/</loc>
+    <loc>https://example.com/tags/cewl/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/chisel/</loc>
+    <loc>https://example.com/tags/chisel/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/cmd/</loc>
+    <loc>https://example.com/tags/cmd/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/dir/</loc>
+    <loc>https://example.com/tags/cmseek/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/crackmapexec/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/dir/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/dirb/</loc>
+    <loc>https://example.com/tags/dirb/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/enum/</loc>
+    <loc>https://example.com/tags/enum/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/evasion/</loc>
+    <loc>https://example.com/tags/evasion/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/find/</loc>
+    <loc>https://example.com/tags/find/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/categories/firewall/</loc>
+    <loc>https://example.com/categories/firewall/</loc>
     <lastmod>2018-12-23T11:26:23+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/foremost/</loc>
+    <loc>https://example.com/tags/foremost/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/gobuster/</loc>
+    <loc>https://example.com/tags/gobuster/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/grep/</loc>
+    <loc>https://example.com/tags/grep/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/hydra/</loc>
+    <loc>https://example.com/tags/hatch/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/john/</loc>
+    <loc>https://example.com/tags/hydra/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/ldap/</loc>
+    <loc>https://example.com/tags/john/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/categories/links/</loc>
+    <loc>https://example.com/tags/ldap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/links/</loc>
+    <loc>https://example.com/tags/ldapsearch/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/categories/linux/</loc>
+    <loc>https://example.com/tags/links/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/links/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/linux/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/msf/</loc>
+    <loc>https://example.com/tags/msf/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/nc/</loc>
+    <loc>https://example.com/tags/nc/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/ncat/</loc>
+    <loc>https://example.com/tags/ncat/</loc>
     <lastmod>2018-12-23T11:26:23+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/netcat/</loc>
+    <loc>https://example.com/tags/netcat/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/nmap/</loc>
+    <loc>https://example.com/tags/nmap/</loc>
     <lastmod>2018-12-23T11:26:23+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/page/</loc>
+    <loc>https://example.com/page/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/ping/</loc>
-    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sosprz.github.io/tags/portscan/</loc>
-    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sosprz.github.io/post/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/powershell/</loc>
+    <loc>https://example.com/tags/ping/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/portscan/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2019-01-19T22:13:07+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/powershell/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/proxychains/</loc>
+    <loc>https://example.com/tags/proxychains/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/ps/</loc>
+    <loc>https://example.com/tags/ps/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/psexec/</loc>
+    <loc>https://example.com/tags/psexec/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/pspy/</loc>
+    <loc>https://example.com/tags/pspy/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/putty/</loc>
+    <loc>https://example.com/tags/putty/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/python/</loc>
+    <loc>https://example.com/tags/python/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/radare2/</loc>
+    <loc>https://example.com/tags/radare2/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/reverse/</loc>
+    <loc>https://example.com/tags/responder/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/seclist/</loc>
+    <loc>https://example.com/tags/reverse/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/sh/</loc>
+    <loc>https://example.com/tags/seclist/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/smbclient/</loc>
+    <loc>https://example.com/tags/sh/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/smbmap/</loc>
+    <loc>https://example.com/tags/skipfish/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/sql/</loc>
+    <loc>https://example.com/tags/smbclient/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/sqlmap/</loc>
+    <loc>https://example.com/tags/smbmap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/ssh/</loc>
+    <loc>https://example.com/tags/sql/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/ssl/</loc>
+    <loc>https://example.com/tags/sqlmap/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/stegcracker/</loc>
+    <loc>https://example.com/tags/ssh/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/steghide/</loc>
+    <loc>https://example.com/tags/ssl/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/stegsolve/</loc>
+    <loc>https://example.com/tags/stegcracker/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/strings/</loc>
+    <loc>https://example.com/tags/steghide/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/</loc>
+    <loc>https://example.com/tags/stegsolve/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/themole/</loc>
+    <loc>https://example.com/tags/strings/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/categories/tools/</loc>
+    <loc>https://example.com/tags/subdomains/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/sublist3r/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/thefatrat/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/themole/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/tools/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/user/</loc>
+    <loc>https://example.com/tags/uniscan/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/wfuzz/</loc>
+    <loc>https://example.com/tags/user/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/vhost/</loc>
+    <lastmod>2018-12-17T21:17:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/wfuzz/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/wget/</loc>
+    <loc>https://example.com/tags/wget/</loc>
     <lastmod>2018-12-30T08:53:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/categories/windows/</loc>
+    <loc>https://example.com/categories/windows/</loc>
     <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sosprz.github.io/tags/xsser/</loc>
+    <loc>https://example.com/tags/xsser/</loc>
     <lastmod>2018-12-17T21:17:20+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sosprz.github.io/</loc>
-    <lastmod>2019-01-19T22:13:07+01:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   

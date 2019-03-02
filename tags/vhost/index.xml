@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vhost on Pentest notes</title>
+    <link>https://example.com/tags/vhost/</link>
+    <description>Recent content in Vhost on Pentest notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 17 Dec 2018 21:17:20 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/vhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Domain tools</title>
+      <link>https://example.com/posts/domain/</link>
+      <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
+      
+      <guid>https://example.com/posts/domain/</guid>
+      <description>sublist3r
+#vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
+ git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
+    </item>
+    
+  </channel>
+</rss>
