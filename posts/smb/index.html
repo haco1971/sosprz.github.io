@@ -42,7 +42,8 @@
 <h3 id="smbclient">smbclient</h3>
 
 <pre><code>#user % hash
-smbclient  -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY -L 10.10.10.107   
+smbclient  -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY -L 10.10.10.107
+smbclient -L //10.10.10.1/
 
 #Allow to login to smb share
 smbclient  -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY   \\\\10.10.10.107\\alice
@@ -57,6 +58,10 @@ smbmap -H 10.10.10.10 -u test -p 'test' -d domain.com --download file</code></pr
 <h4 id="crackmapexec">crackmapexec</h4>
 
 <p><pre><code>crackmapexec ypuffy.htb -u alice1978 -H 0B186E661BBDBDCF6047784DE8B9FD8B &ndash;shares</pre></code></p>
+
+<h3 id="nmap">Nmap</h3>
+
+<p>nmap -T4 -v -oA shares &ndash;script smb-enum-shares &ndash;script-args smbuser=username,smbpass=password -p445 10.10.10.123</p>
 
     </div>
   </article>

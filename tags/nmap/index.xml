@@ -25,9 +25,8 @@
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/domain/</guid>
-      <description>sublist3r
-#vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
- git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
+      <description>vhost enumeration nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
+ git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  nmap --script dns-brute friendzone.red sublist3r -b -d friendzone.red Domain transfer dig +nocmd axfr @10.10.10.1 example.com +noall +answer</description>
     </item>
     
     <item>

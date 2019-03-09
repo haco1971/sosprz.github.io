@@ -37,9 +37,7 @@
           <a class="tag" href="https://sosprz.github.io/tags/sublist3r/">Sublist3r</a><a class="tag" href="https://sosprz.github.io/tags/subdomains/">Subdomains</a><a class="tag" href="https://sosprz.github.io/tags/nmap/">Nmap</a><a class="tag" href="https://sosprz.github.io/tags/vhost/">Vhost</a></div></div>
     </header>
     <div class="post-content">
-      <p>sublist3r</p>
-
-<p>#vhost enum
+      <p>vhost enumeration
 <pre>nmap &ndash;script http-vhosts -p 80,443 10.10.10.113
 </pre></p>
 
@@ -47,6 +45,13 @@
 git clone https://github.com/jobertabma/virtual-host-discovery
 ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt
 </pre>
+
+<pre>nmap --script dns-brute friendzone.red
+sublist3r -b -d friendzone.red</pre>
+
+<p>Domain transfer
+<pre>dig +nocmd axfr @10.10.10.1 example.com +noall +answer
+</pre></p>
 
     </div>
   </article>

