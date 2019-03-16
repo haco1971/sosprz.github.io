@@ -16,7 +16,9 @@
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/links/</guid>
-      <description>shells https://github.com/flozz/p0wny-shell
+      <description>hash analyzer https://www.tunnelsup.com/hash-analyzer/ https://www.dcode.fr/tools-list#cryptography https://hashkiller.co.uk/Cracker/MD5 https://crackstation.net/
+shells https://github.com/flozz/p0wny-shell
+https://github.com/tennc/webshell/blob/master/asp/webshell.asp
 enumeration https://github.com/diego-treitos/linux-smart-enumeration
 tools https://gtfobins.github.io/
 https://github.com/dostoevskylabs/dostoevsky-pentest-notes
@@ -25,8 +27,16 @@ https://github.com/pentestmonkey/unix-privesc-check
 https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
 https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
 https://www.rebootuser.com/?p=1623
-https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/ https://guif.re/linuxeop https://chryzsh.gitbooks.io/pentestbook/privilege_escalation_-_linux.html http://pentestmonkey.net/category/cheat-sheet https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/ https://www.hackingarticles.in/linux-privilege-escalation-via-automated-script/ https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/ https://ahmedjouini.wordpress.com/ http://blog.kaiposecurity.nl/hackthebox-bastard/ https://github.com/1N3/PrivEsc/tree/master/linux
-#check file https://nodistribute.com/ https://www.hackingarticles.in/penetration-testing/
+https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/
+https://guif.re/linuxeop
+https://chryzsh.gitbooks.io/pentestbook/privilege_escalation_-_linux.html
+http://pentestmonkey.net/category/cheat-sheet
+https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+https://www.hackingarticles.in/linux-privilege-escalation-via-automated-script/
+https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/
+https://ahmedjouini.wordpress.com/ http://blog.kaiposecurity.nl/hackthebox-bastard/ https://github.com/1N3/PrivEsc/tree/master/linux
+check file https://nodistribute.com/
+https://www.hackingarticles.in/penetration-testing/
 https://null-byte.wonderhowto.com/how-to/push-and-pull-remote-files-securely-over-ssh-with-pipes-0133407/</description>
     </item>
     

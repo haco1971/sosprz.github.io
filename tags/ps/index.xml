@@ -27,7 +27,7 @@ ls -ltr
 #wrap ps commands ps auxww
 #remove all before
 cat lists |sed &amp;rsquo;s/^.*://&amp;rsquo; &amp;gt; md5 awk -F &amp;ldquo;:&amp;rdquo; &amp;lsquo;{print $1}&amp;rsquo; /etc/passwd
- #capabilities getcap -r / 2/dev/null #grep recursive grep -RIlm1 &#34;bash&#34; /skrypty/ #sticky bit find / -perm -1000 -type d -exec la -la {} \; 2/dev/null #sgid chmod 2000 find / -perm -g=s -type f -exec ls -la {} \; 2/dev/null #SUID chmod 4000 find / -perm -u=s -type f -exec ls -la {} \; 2/dev/null find / -user root -perm -o=w -type f -not -path &#34;</description>
+ #capabilities getcap -r / 2/dev/null #grep recursive grep -RIlm1 &#34;bash&#34; $(pwd) #sticky bit find / -perm -1000 -type d -exec la -la {} \; 2/dev/null #sgid chmod 2000 find / -perm -g=s -type f -exec ls -la {} \; 2/dev/null #SUID chmod 4000 find / -perm -u=s -type f -exec ls -la {} \; 2/dev/null find / -user root -perm -o=w -type f -not -path &#34;</description>
     </item>
     
   </channel>

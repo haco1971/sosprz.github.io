@@ -16,7 +16,8 @@
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/openssl/</guid>
-      <description>https://github.com/glv2/bruteforce-salted-openssl</description>
+      <description> links https://github.com/glv2/bruteforce-salted-openssl
+check remote ssl openssl s_client -connect wp.pl local check openssl x509 -in 1000.pem -text -noout </description>
     </item>
     
   </channel>

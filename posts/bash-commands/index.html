@@ -37,7 +37,9 @@
           <a class="tag" href="https://sosprz.github.io/tags/python/">Python</a><a class="tag" href="https://sosprz.github.io/tags/nc/">Nc</a><a class="tag" href="https://sosprz.github.io/tags/find/">Find</a><a class="tag" href="https://sosprz.github.io/tags/awk/">Awk</a><a class="tag" href="https://sosprz.github.io/tags/grep/">Grep</a><a class="tag" href="https://sosprz.github.io/tags/cat/">Cat</a><a class="tag" href="https://sosprz.github.io/tags/ps/">Ps</a></div></div>
     </header>
     <div class="post-content">
-      <p>#www server
+      
+
+<p>#www server
 <pre>
 python -m SimpleHTTPServer 8000
 </pre></p>
@@ -66,7 +68,7 @@ awk -F &ldquo;:&rdquo; &lsquo;{print $1}&rsquo; /etc/passwd</pre></p>
 getcap -r / 2>/dev/null
 
 #grep recursive
-grep -RIlm1 "bash" /skrypty/
+grep -RIlm1 "bash" $(pwd)
 
 #sticky bit
 find / -perm -1000 -type d -exec la -la {} \; 2>/dev/null
@@ -86,6 +88,18 @@ find / -type f -perm -g=rw -user root
 munpack Receipt.eml</p>
 
 <p>ltrace</p>
+
+<h3 id="system-packets-manager">system packets manager</h3>
+
+<pre>apt-cache search showmount</pre>
+
+<h4 id="upload-to-ftp">upload to ftp</h4>
+
+<pre>curl -T hi.asp ftp://10.10.10.116 --user anonymous:anonymous</pre>
+
+<h4 id="download-all-files-from-ftp">download all files from ftp</h4>
+
+<pre>wget --no-passive-ftp -m ftp://anonymous:anonymous@10.10.10.1</pre>
 
     </div>
   </article>

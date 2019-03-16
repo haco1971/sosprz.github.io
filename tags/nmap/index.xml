@@ -25,8 +25,7 @@
       <pubDate>Mon, 17 Dec 2018 21:17:20 +0100</pubDate>
       
       <guid>https://sosprz.github.io/posts/domain/</guid>
-      <description>vhost enumeration nmap &amp;ndash;script http-vhosts -p 80,443 10.10.10.113 
- git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  nmap --script dns-brute friendzone.red sublist3r -b -d friendzone.red Domain transfer dig +nocmd axfr @10.10.10.1 example.com +noall +answer</description>
+      <description>vhost enumeration nmap --script http-vhosts -p 80,443 10.10.10.113 nmap --script dns-brute domain.pl   git clone https://github.com/jobertabma/virtual-host-discovery ruby scan.rb --ip=10.10.10.1 --host=domein.ltd -w /usr/share/seclists/Discovery/DNS/subdomains-top1mil-20000.txt  nmap --script dns-brute friendzone.red  Domain transfer dig +nocmd axfr @10.10.10.1 example.com +noall +answer</description>
     </item>
     
     <item>
@@ -36,8 +35,7 @@
       
       <guid>https://sosprz.github.io/posts/nmap/</guid>
       <description>nmap -sC -sV -oA nmap/hostname ip nmap -c -v -max-retires=0 -t5 -p- 10.10.10.10  nmap &amp;ndash;script smb-brute.nse -p445 ip
-nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip 
- nmap -p 80 &amp;ndash;script http-shellshock &amp;ndash;script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 &amp;ndash;script mysql-brute ip nmap -sV &amp;ndash;script=http-enum ip nmap -sV &amp;ndash;script=nfs-showmount ip nmap -sV &amp;ndash;script ssl-enum-ciphers -p 443 ip nmap -p445 &amp;ndash;script smb-vuln-ms17-010 ip nmap &amp;ndash;script smb-brute.</description>
+nmap -n -T4 -sS -sV -sC -oA nmap/hostname ip nmap -v -sS -p- -A -T4 -oA nmap/hostname ip nmap -v -sU -sS -p- -A -T4 -oA nmap/hostname ip   nmap -p 80 --script http-shellshock --script-args uri=/cgi-bin/vulnscript.sh ip nmap -p 3306 --script mysql-brute ip nmap -sV --script=http-enum ip nmap -sV --script=nfs-showmount ip nmap -sV --script ssl-enum-ciphers -p 443 ip nmap -p445 --script smb-vuln-ms17-010 ip nmap --script smb-brute.</description>
     </item>
     
     <item>

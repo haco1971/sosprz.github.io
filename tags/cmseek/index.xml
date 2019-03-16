@@ -20,7 +20,8 @@
 Responder responder -i tun0
 Hping3 hping3 -S 10.10.10.10 -a 10.10.10.11 -p 22 &amp;ndash;flood
 Bettercap bettercap -X -I wlp2s0 -T 172.18.10.40 &amp;ndash;proxy -P post
-https://github.com/diego-treitos/linux-smart-enumeration https://github.com/joaogmauricio/redhttpd</description>
+links https://github.com/21y4d/nmapAutomator https://github.com/diego-treitos/linux-smart-enumeration
+https://github.com/joaogmauricio/redhttpd</description>
     </item>
     
   </channel>
